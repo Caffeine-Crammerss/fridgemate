@@ -1,20 +1,3 @@
-import 'package:flutter/material.dart';
-import 'package:firebase_core/firebase_core.dart';
-import 'screens/home_screen.dart';
+This is Our App Development Project files 
 
-void main() async {
-WidgetsFlutterBinding.ensureInitialized();
-await Firebase.initializeApp();
-runApp(MyApp());
-}
-
-class MyApp extends StatelessWidget {
-@override
-Widget build(BuildContext context) {
-return MaterialApp(
-title: 'FridgeMate',
-theme: ThemeData(primarySwatch: Colors.blue),
-home: HomeScreen(),
-);
-}
-}
+The App name is Fridgemate 
