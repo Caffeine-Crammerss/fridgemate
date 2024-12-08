@@ -1,4 +1,4 @@
-# fridgemate
+# Fridgemate
 
 A new Flutter project.
 
