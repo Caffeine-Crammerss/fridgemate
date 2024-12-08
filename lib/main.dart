@@ -1,3 +1,4 @@
+// Basel's Update
 import 'package:flutter/material.dart';
 import 'screens/auth_screen.dart';
 import 'screens/home_screen.dart'; // Import HomeScreen
@@ -17,9 +18,9 @@ class FridgeMateApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         scaffoldBackgroundColor: Colors.white,
       ),
-      initialRoute: '/home',
+      initialRoute: '/', // Set initial route to AuthScreen
       routes: {
-        '/': (context) => const AuthScreen(),
+        '/': (context) => const AuthScreen(), // AuthScreen as the initial screen
         '/home': (context) => const HomeScreen(), // HomeScreen uses the global `itemList`
         '/settings': (context) => SettingsScreen(),
         '/addItem': (context) => AddItemScreen(
