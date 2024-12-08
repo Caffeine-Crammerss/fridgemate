@@ -1,3 +1,4 @@
+//Esed from android studio
 import 'package:flutter/material.dart';
 import 'screens/auth_screen.dart';
 import 'screens/home_screen.dart'; // Import HomeScreen

@@ -4,7 +4,7 @@
             "outputFile": "com.example.fridgemate.app-mergeDebugResources-24:/values-kk/values-kk.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\basel\\.gradle\\caches\\8.10.2\\transforms\\01362fc6d446dbe5485c4a44efcb82cc\\transformed\\core-1.13.1\\res\\values-kk\\values-kk.xml",
+                    "source": "C:\\Users\\Prog\\.gradle\\caches\\8.10.2\\transforms\\01362fc6d446dbe5485c4a44efcb82cc\\transformed\\core-1.13.1\\res\\values-kk\\values-kk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
