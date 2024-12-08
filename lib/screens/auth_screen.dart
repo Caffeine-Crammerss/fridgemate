@@ -117,7 +117,7 @@ class _AuthScreenState extends State<AuthScreen> {
                   filled: true,
                   fillColor: Colors.white10,
                   border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(10), // Removed const here
+                    borderRadius: BorderRadius.circular(10),
                     borderSide: BorderSide.none,
                   ),
                 ),
@@ -126,13 +126,13 @@ class _AuthScreenState extends State<AuthScreen> {
             if (!isSignIn) const SizedBox(height: 20),
             TextField(
               decoration: InputDecoration(
-                labelText: 'Phone Number',
+                labelText: 'Email',
                 labelStyle: const TextStyle(color: Colors.white),
-                prefixIcon: const Icon(Icons.phone, color: Colors.orange),
+                prefixIcon: const Icon(Icons.email, color: Colors.orange),
                 filled: true,
                 fillColor: Colors.white10,
                 border: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(10), // Removed const here
+                  borderRadius: BorderRadius.circular(10),
                   borderSide: BorderSide.none,
                 ),
               ),
@@ -147,7 +147,7 @@ class _AuthScreenState extends State<AuthScreen> {
                 filled: true,
                 fillColor: Colors.white10,
                 border: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(10), // Removed const here
+                  borderRadius: BorderRadius.circular(10),
                   borderSide: BorderSide.none,
                 ),
               ),
@@ -163,7 +163,7 @@ class _AuthScreenState extends State<AuthScreen> {
                 backgroundColor: Colors.orange,
                 padding: const EdgeInsets.symmetric(vertical: 16),
                 shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(10), // Removed const here
+                  borderRadius: BorderRadius.circular(10),
                 ),
               ),
               child: Text(
@@ -184,7 +184,7 @@ class _AuthScreenState extends State<AuthScreen> {
                 padding: const EdgeInsets.symmetric(vertical: 14),
                 side: BorderSide(color: Colors.grey.shade300),
                 shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(10), // Removed const here
+                  borderRadius: BorderRadius.circular(10),
                 ),
                 backgroundColor: Colors.white,
               ),
@@ -198,7 +198,7 @@ class _AuthScreenState extends State<AuthScreen> {
                 padding: const EdgeInsets.symmetric(vertical: 14),
                 side: BorderSide(color: Colors.grey.shade300),
                 shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(10), // Removed const here
+                  borderRadius: BorderRadius.circular(10),
                 ),
                 backgroundColor: Colors.white,
               ),
