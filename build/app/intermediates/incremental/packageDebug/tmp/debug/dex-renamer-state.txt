@@ -1,8 +1,8 @@
-#Sat Dec 07 21:43:05 SGT 2024
-base.0=C\:\\Users\\basel\\StudioProjects\\FridgeMate\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\basel\\StudioProjects\\FridgeMate\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\basel\\StudioProjects\\FridgeMate\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.3=C\:\\Users\\basel\\StudioProjects\\FridgeMate\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
+#Sun Dec 08 17:14:48 SGT 2024
+base.0=C\:\\Users\\Prog\\AndroidStudioProjects\\FridgeMate\\fridgemate\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\Prog\\AndroidStudioProjects\\FridgeMate\\fridgemate\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\Prog\\AndroidStudioProjects\\FridgeMate\\fridgemate\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.3=C\:\\Users\\Prog\\AndroidStudioProjects\\FridgeMate\\fridgemate\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=0/classes.dex
