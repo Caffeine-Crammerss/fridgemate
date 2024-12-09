@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class CustomTextField extends StatelessWidget {
+abstract class CustomTextField extends StatefulWidget {
   final String label;
   final IconData icon;
   final TextEditingController controller;
@@ -18,4 +18,6 @@ class CustomTextField extends StatelessWidget {
       ),
     );
   }
-}
+  
+  }
+

@@ -1,4 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+
+final FirebaseAuth _auth = FirebaseAuth.instance;
+final FirebaseFirestore _firestore = FirebaseFirestore.instance;
 
 class AuthScreen extends StatefulWidget {
   const AuthScreen({Key? key}) : super(key: key);
@@ -7,8 +12,20 @@ class AuthScreen extends StatefulWidget {
   _AuthScreenState createState() => _AuthScreenState();
 }
 
+bool isSignIn = true;
 class _AuthScreenState extends State<AuthScreen> {
-  bool isSignIn = true;
+
+  final TextEditingController nameController = TextEditingController();
+  final TextEditingController emailController = TextEditingController();
+  final TextEditingController passwordController = TextEditingController();
+
+  @override
+  void dispose() {
+    nameController.dispose();
+    emailController.dispose();
+    passwordController.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -110,6 +127,7 @@ class _AuthScreenState extends State<AuthScreen> {
             const SizedBox(height: 20),
             if (!isSignIn)
               TextField(
+                controller: nameController,
                 decoration: InputDecoration(
                   labelText: 'Full Name',
                   labelStyle: const TextStyle(color: Colors.white),
@@ -117,7 +135,7 @@ class _AuthScreenState extends State<AuthScreen> {
                   filled: true,
                   fillColor: Colors.white10,
                   border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(10), // Removed const here
+                    borderRadius: BorderRadius.circular(10),
                     borderSide: BorderSide.none,
                   ),
                 ),
@@ -125,14 +143,15 @@ class _AuthScreenState extends State<AuthScreen> {
               ),
             if (!isSignIn) const SizedBox(height: 20),
             TextField(
+              controller: emailController,
               decoration: InputDecoration(
-                labelText: 'Phone Number',
+                labelText: 'Email Address',
                 labelStyle: const TextStyle(color: Colors.white),
-                prefixIcon: const Icon(Icons.phone, color: Colors.orange),
+                prefixIcon: const Icon(Icons.email, color: Colors.orange),
                 filled: true,
                 fillColor: Colors.white10,
                 border: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(10), // Removed const here
+                  borderRadius: BorderRadius.circular(10),
                   borderSide: BorderSide.none,
                 ),
               ),
@@ -140,6 +159,7 @@ class _AuthScreenState extends State<AuthScreen> {
             ),
             const SizedBox(height: 20),
             TextField(
+              controller: passwordController,
               decoration: InputDecoration(
                 labelText: 'Password',
                 labelStyle: const TextStyle(color: Colors.white),
@@ -147,7 +167,7 @@ class _AuthScreenState extends State<AuthScreen> {
                 filled: true,
                 fillColor: Colors.white10,
                 border: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(10), // Removed const here
+                  borderRadius: BorderRadius.circular(10),
                   borderSide: BorderSide.none,
                 ),
               ),
@@ -157,13 +177,28 @@ class _AuthScreenState extends State<AuthScreen> {
             const SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
-                Navigator.pushNamed(context, '/home'); // Navigates to home screen
+                if (isSignIn) {
+                  // Call the sign-in method
+                  signInUser(
+                    emailController.text.trim(),
+                    passwordController.text.trim(),
+                    context,
+                  );
+                } else {
+                  // Call the sign-up method
+                  signUpUser(
+                    nameController.text.trim(),
+                    emailController.text.trim(),
+                    passwordController.text.trim(),
+                    context,
+                  );
+                }
               },
               style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.orange,
                 padding: const EdgeInsets.symmetric(vertical: 16),
                 shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(10), // Removed const here
+                  borderRadius: BorderRadius.circular(10),
                 ),
               ),
               child: Text(
@@ -172,14 +207,18 @@ class _AuthScreenState extends State<AuthScreen> {
               ),
             ),
             const SizedBox(height: 10),
-            const Center(child: Text("Or Sign Up With", style: TextStyle(color: Colors.white70))),
+            const Center(
+                child: Text("Or Sign Up With",
+                    style: TextStyle(color: Colors.white70))),
             const SizedBox(height: 10),
             OutlinedButton.icon(
               onPressed: () {
                 Navigator.pushNamed(context, '/home'); // Handle Google sign up
               },
-              icon: Image.asset('assets/Google_Icons-09-512.webp', width: 24, height: 24),
-              label: const Text('Sign Up with Google', style: TextStyle(color: Colors.black)),
+              icon: Image.asset('assets/Google_Icons-09-512.webp',
+                  width: 24, height: 24),
+              label: const Text('Sign Up with Google',
+                  style: TextStyle(color: Colors.black)),
               style: OutlinedButton.styleFrom(
                 padding: const EdgeInsets.symmetric(vertical: 14),
                 side: BorderSide(color: Colors.grey.shade300),
@@ -202,11 +241,78 @@ class _AuthScreenState extends State<AuthScreen> {
                 ),
                 backgroundColor: Colors.white,
               ),
-              child: const Text('Continue as Guest', style: TextStyle(color: Colors.green)),
+              child: const Text('Continue as Guest',
+                  style: TextStyle(color: Colors.green)),
             ),
           ],
         ),
       ),
     );
+  }
+}
+
+Future<void> signUpUser(String name, String email, String password, BuildContext context) async {
+  try {
+    UserCredential userCredential = await _auth.createUserWithEmailAndPassword(
+      email: email,
+      password: password,
+    );
+    User? user = userCredential.user;
+
+    if (user != null) {
+      await _firestore.collection('users').doc(user.uid).set({
+        'fullName': name,
+        'email': email,
+        'uid': user.uid,
+      });
+      print('User registered successfully');
+
+      // Show a dialog prompting the user to sign in
+      await showDialog(
+        context: context,
+        builder: (BuildContext context) {
+          return AlertDialog(
+            title: const Text('Registration Successful'),
+            content: const Text('Please sign in to continue using the app.'),
+            actions: [
+              TextButton(
+                onPressed: () {
+                  Navigator.pop(context); // Close the dialog
+                },
+                child: const Text('OK'),
+              ),
+            ],
+          );
+        },
+      );
+
+      // After the dialog is dismissed, switch to Sign-In mode
+      if (context.mounted) {
+        setState(() {
+          isSignIn = true;
+        });
+      }
+    }
+  } catch (e) {
+    print('Error: $e');
+    // Optionally handle error and show an error message
+  }
+}
+
+
+
+Future<void> signInUser(String email, String password, BuildContext context) async {
+  try {
+    await _auth.signInWithEmailAndPassword(
+      email: email,
+      password: password,
+    );
+    print('User signed in successfully');
+
+    // Navigate to home page
+    Navigator.pushReplacementNamed(context, '/home');
+  } catch (e) {
+    print('Error: $e');
+    // Optionally show an error message to the user
   }
 }
