@@ -288,9 +288,9 @@ Future<void> signUpUser(String name, String email, String password, BuildContext
 
       // After the dialog is dismissed, switch to Sign-In mode
       if (context.mounted) {
-        setState(() {
+        // setState(() {
           isSignIn = true;
-        });
+        // });
       }
     }
   } catch (e) {
