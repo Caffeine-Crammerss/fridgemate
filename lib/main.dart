@@ -1,5 +1,6 @@
-//Esed from android studio
+//Basel's 12/10/2024 update
 import 'package:firebase_core/firebase_core.dart';
+import 'package:cloud_firestore/cloud_firestore.dart'; // delete
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'screens/auth_screen.dart';
@@ -9,11 +10,12 @@ import 'screens/add_item_screen.dart';
 import 'screens/my_items_screen.dart' as my_items; // Import MyItemsScreen with alias
 import 'globals.dart'; // Import globals to access itemList
 
-void main() async{
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
   runApp(FridgeMateApp());
 }
+
 class FridgeMateApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -23,7 +25,7 @@ class FridgeMateApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         scaffoldBackgroundColor: Colors.white,
       ),
-      initialRoute: '/home',
+      initialRoute: '/', // Set initial route to AuthScreen
       routes: {
         '/': (context) => const AuthScreen(),
         '/home': (context) => const HomeScreen(), // HomeScreen uses the global `itemList`

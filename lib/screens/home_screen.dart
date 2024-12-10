@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'dart:io';
-import '../globals.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:intl/intl.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -19,14 +20,45 @@ class _HomeScreenState extends State<HomeScreen> {
   void initState() {
     super.initState();
     _updateRecentItems();
+    _fetchItems(); // Fetch the user's items from Firestore
+  }
+
+  // Fetch items from Firestore (Assuming you have an 'items' collection)
+  Future<void> _fetchItems() async {
+    User? user = FirebaseAuth.instance.currentUser;
+
+    if (user != null) {
+      try {
+        QuerySnapshot itemsSnapshot = await FirebaseFirestore.instance
+            .collection('items')
+            .where('userId', isEqualTo: user.uid) // Get items for the signed-in user
+            .orderBy('createdAt', descending: true)
+            .limit(4)
+            .get();
+
+        List<Map<String, dynamic>> items = [];
+        itemsSnapshot.docs.forEach((doc) {
+          items.add({
+            'name': doc['name'],
+            'expiryDate': doc['expiryDate'].toDate(),
+          });
+        });
+
+        setState(() {
+          recentItems = items;
+        });
+      } catch (e) {
+        print('Error fetching items: $e');
+      }
+    }
   }
 
   void _updateRecentItems() {
     setState(() {
-      // Update the recentItems list with the last 4 items from the global itemList
-      recentItems = itemList.length > 4
-          ? itemList.sublist(itemList.length - 4)
-          : List.from(itemList);
+      // Update the recentItems list if necessary
+      if (recentItems.length > 4) {
+        recentItems = recentItems.sublist(recentItems.length - 4);
+      }
     });
   }
 
@@ -45,10 +77,8 @@ class _HomeScreenState extends State<HomeScreen> {
     final result = await Navigator.pushNamed(context, '/addItem');
     if (result == true) {
       setState(() {
-        // Update the recentItems list immediately
-        recentItems = itemList.length > 4
-            ? itemList.sublist(itemList.length - 4)
-            : List.from(itemList);
+        // Update recent items list after adding a new item
+        _fetchItems();
       });
     }
   }
@@ -61,10 +91,35 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
-        iconTheme: IconThemeData(color: Colors.grey[800]),
-        title: Text(
-          "Welcome, User!",
-          style: TextStyle(color: Colors.grey[800], fontSize: 24, fontWeight: FontWeight.w600),
+        iconTheme: IconThemeData(color: Colors.grey.shade800),
+        title: StreamBuilder<DocumentSnapshot>(
+          stream: FirebaseFirestore.instance
+              .collection('users')
+              .doc(FirebaseAuth.instance.currentUser?.uid)
+              .snapshots(),
+          builder: (context, snapshot) {
+            if (snapshot.connectionState == ConnectionState.waiting) {
+              return const CircularProgressIndicator(); // Show a loader while data is being fetched
+            }
+            if (!snapshot.hasData || !snapshot.data!.exists) {
+              return Text(
+                "Welcome, User",
+                style: TextStyle(
+                    color: Colors.grey.shade800,
+                    fontSize: 24,
+                    fontWeight: FontWeight.w600),
+              );
+            }
+
+            final userData = snapshot.data!.data() as Map<String, dynamic>;
+            return Text(
+              "Welcome, ${userData['fullName'] ?? 'User'}",
+              style: TextStyle(
+                  color: Colors.grey.shade800,
+                  fontSize: 24,
+                  fontWeight: FontWeight.w600),
+            );
+          },
         ),
         centerTitle: true,
       ),
@@ -72,34 +127,88 @@ class _HomeScreenState extends State<HomeScreen> {
         children: [
           Padding(
             padding: const EdgeInsets.symmetric(vertical: 20.0),
-            child: Column(
-              children: [
-                GestureDetector(
-                  onTap: _pickImage,
-                  child: CircleAvatar(
-                    radius: 40,
-                    backgroundImage: _profileImage != null ? FileImage(_profileImage!) : null,
-                    child: _profileImage == null
-                        ? Icon(Icons.account_circle, color: Colors.grey[400], size: 60)
-                        : null,
-                  ),
-                ),
-                const SizedBox(height: 10),
-                Text(
-                  "Your Name",
-                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.grey[800]),
-                ),
-                Text(
-                  "user@example.com",
-                  style: TextStyle(fontSize: 16, color: Colors.grey[600]),
-                ),
-              ],
+            child: StreamBuilder<DocumentSnapshot>(
+              stream: FirebaseFirestore.instance
+                  .collection('users')
+                  .doc(FirebaseAuth.instance.currentUser?.uid)
+                  .snapshots(),
+              builder: (context, snapshot) {
+                if (snapshot.connectionState == ConnectionState.waiting) {
+                  return const CircularProgressIndicator();
+                }
+                if (!snapshot.hasData || !snapshot.data!.exists) {
+                  return Column(
+                    children: [
+                      CircleAvatar(
+                        radius: 40,
+                        child: Icon(
+                          Icons.account_circle,
+                          color: Colors.grey.shade400,
+                          size: 60,
+                        ),
+                      ),
+                      const SizedBox(height: 10),
+                      Text(
+                        "Your Name",
+                        style: TextStyle(
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.grey.shade800),
+                      ),
+                      Text(
+                        "user@example.com",
+                        style: TextStyle(
+                            fontSize: 16, color: Colors.grey.shade600),
+                      ),
+                    ],
+                  );
+                }
+
+                final userData = snapshot.data!.data() as Map<String, dynamic>;
+                return Column(
+                  children: [
+                    GestureDetector(
+                      onTap: _pickImage,
+                      child: CircleAvatar(
+                        radius: 40,
+                        backgroundImage: _profileImage != null
+                            ? FileImage(_profileImage!)
+                            : null,
+                        child: _profileImage == null
+                            ? Icon(
+                          Icons.account_circle,
+                          color: Colors.grey.shade400,
+                          size: 60,
+                        )
+                            : null,
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    Text(
+                      userData['fullName'] ?? "Your Name",
+                      style: TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.grey.shade800),
+                    ),
+                    Text(
+                      FirebaseAuth.instance.currentUser?.email ??
+                          "user@example.com",
+                      style: TextStyle(
+                          fontSize: 16, color: Colors.grey.shade600),
+                    ),
+                  ],
+                );
+              },
             ),
           ),
           const SizedBox(height: 10),
           const Text(
             'Recent added items',
-            style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold, color: Colors.deepOrange),
+            style: TextStyle(
+                fontSize: 24,
+                fontWeight: FontWeight.bold,
+                color: Colors.deepOrange),
           ),
           const SizedBox(height: 10),
           Expanded(
@@ -107,7 +216,8 @@ class _HomeScreenState extends State<HomeScreen> {
                 ? Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20.0),
               child: GridView.builder(
-                gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                gridDelegate:
+                const SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 2,
                   crossAxisSpacing: 10,
                   mainAxisSpacing: 10,
@@ -115,9 +225,10 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 itemCount: recentItems.length,
                 itemBuilder: (context, index) {
-                  final recentItem = recentItems[recentItems.length - 1 - index];
+                  final recentItem = recentItems[index];
                   return Card(
-                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(12)),
                     elevation: 3,
                     child: Padding(
                       padding: const EdgeInsets.all(10),
@@ -125,20 +236,26 @@ class _HomeScreenState extends State<HomeScreen> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            recentItem['name'],
-                            style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.deepOrange),
+                            recentItem['name'] ?? 'Unnamed Item',
+                            style: const TextStyle(
+                                fontSize: 16,
+                                fontWeight: FontWeight.bold,
+                                color: Colors.deepOrange),
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis,
                           ),
                           const SizedBox(height: 5),
                           Row(
                             children: [
-                              Icon(Icons.calendar_today, size: 12, color: Colors.grey),
+                              Icon(Icons.calendar_today,
+                                  size: 12, color: Colors.grey),
                               const SizedBox(width: 4),
                               Expanded(
                                 child: Text(
                                   'Expires: ${DateFormat('yyyy-MM-dd').format(recentItem['expiryDate'])}',
-                                  style: const TextStyle(fontSize: 12, color: Colors.grey),
+                                  style: const TextStyle(
+                                      fontSize: 12,
+                                      color: Colors.grey),
                                 ),
                               ),
                             ],
@@ -180,22 +297,45 @@ class _HomeScreenState extends State<HomeScreen> {
                 end: Alignment.bottomRight,
               ),
             ),
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                CircleAvatar(
-                  radius: 30,
-                  backgroundImage: _profileImage != null ? FileImage(_profileImage!) : null,
-                  child: _profileImage == null
-                      ? Icon(Icons.account_circle, color: Colors.grey[300], size: 40)
-                      : null,
-                ),
-                const SizedBox(height: 10),
-                Text(
-                  "Your Name",
-                  style: TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold),
-                ),
-              ],
+            child: StreamBuilder<DocumentSnapshot>(
+              stream: FirebaseFirestore.instance
+                  .collection('users')
+                  .doc(FirebaseAuth.instance.currentUser?.uid)
+                  .snapshots(),
+              builder: (context, snapshot) {
+                if (snapshot.connectionState == ConnectionState.waiting) {
+                  return const CircularProgressIndicator();
+                }
+                if (!snapshot.hasData || !snapshot.data!.exists) {
+                  return CircleAvatar(
+                    radius: 30,
+                    child: Icon(
+                      Icons.account_circle,
+                      size: 40,
+                      color: Colors.grey.shade300,
+                    ),
+                  );
+                }
+                final userData = snapshot.data!.data() as Map<String, dynamic>;
+                return Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    CircleAvatar(
+                      radius: 30,
+                      child: Icon(Icons.account_circle,
+                          size: 40, color: Colors.grey.shade300),
+                    ),
+                    const SizedBox(height: 10),
+                    Text(
+                      userData['fullName'] ?? "Your Name",
+                      style: const TextStyle(
+                          color: Colors.white,
+                          fontSize: 18,
+                          fontWeight: FontWeight.bold),
+                    ),
+                  ],
+                );
+              },
             ),
           ),
           _buildDrawerItem(Icons.add_shopping_cart, "Add Items", () {
@@ -205,7 +345,7 @@ class _HomeScreenState extends State<HomeScreen> {
           _buildDrawerItem(Icons.shopping_cart, "My Items", () {
             Navigator.pop(context);
             Navigator.pushNamed(context, '/myItems').then((_) {
-              _updateRecentItems();
+              _fetchItems(); // Refresh items after navigating
             });
           }),
           _buildDrawerItem(Icons.settings, "Settings", () {
@@ -223,7 +363,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Widget _buildDrawerItem(IconData icon, String label, VoidCallback onTap) {
     return ListTile(
-      leading: Icon(icon, color: Colors.grey[800]),
+      leading: Icon(icon, color: Colors.grey.shade800),
       title: Text(label, style: const TextStyle(fontSize: 16)),
       onTap: onTap,
     );
