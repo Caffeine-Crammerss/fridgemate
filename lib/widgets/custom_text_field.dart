@@ -5,7 +5,7 @@ abstract class CustomTextField extends StatefulWidget {
   final IconData icon;
   final TextEditingController controller;
 
-  CustomTextField({required this.label, required this.icon, required this.controller});
+  const CustomTextField({super.key, required this.label, required this.icon, required this.controller});
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +14,7 @@ abstract class CustomTextField extends StatefulWidget {
       decoration: InputDecoration(
         labelText: label,
         prefixIcon: Icon(icon),
-        border: OutlineInputBorder(),
+        border: const OutlineInputBorder(),
       ),
     );
   }

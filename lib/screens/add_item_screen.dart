@@ -1,13 +1,16 @@
 import 'package:flutter/material.dart';
-import 'dart:io';
+import 'dart:convert'; // For base64 encoding
 import 'package:image_picker/image_picker.dart';
 import 'package:intl/intl.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:image/image.dart' as img; // For image compression
 import '../globals.dart';
 
 class AddItemScreen extends StatefulWidget {
   final Function(List<Map<String, dynamic>>) onItemsAdded;
 
-  const AddItemScreen({Key? key, required this.onItemsAdded}) : super(key: key);
+  const AddItemScreen({super.key, required this.onItemsAdded});
 
   @override
   _AddItemScreenState createState() => _AddItemScreenState();
@@ -35,12 +38,44 @@ class _AddItemScreenState extends State<AddItemScreen> {
     }
   }
 
-  void _saveItems() {
-    widget.onItemsAdded(itemsToBeAdded);
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(content: Text("${itemsToBeAdded.length} items added successfully!")),
-    );
-    Navigator.pop(context, true); // Return `true` to indicate items were added
+  void _saveItems() async {
+    User? user = FirebaseAuth.instance.currentUser;
+
+    if (user != null) {
+      try {
+        final itemsRef = FirebaseFirestore.instance
+            .collection('users')
+            .doc(user.uid)
+            .collection('items');
+
+        for (var item in itemsToBeAdded) {
+          await itemsRef.add({
+            'name': item['name'],
+            'expiryDate': item['expiryDate'],
+            'category': item['category'],
+            'image': item['image'],
+            'createdAt': FieldValue.serverTimestamp(),
+          });
+        }
+
+        setState(() {
+          itemsToBeAdded.clear();
+        });
+
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(content: Text("Items added successfully!")),
+        );
+        Navigator.pop(context, true);
+      } catch (e) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text("Failed to save items: $e")),
+        );
+      }
+    } else {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text("User not authenticated.")),
+      );
+    }
   }
 
   @override
@@ -74,10 +109,15 @@ class _AddItemScreenState extends State<AddItemScreen> {
                     leading: item['image'] != null
                         ? ClipRRect(
                       borderRadius: BorderRadius.circular(8),
-                      child: Image.file(item['image'],
-                          width: 50, height: 50, fit: BoxFit.cover),
+                      child: Image.memory(
+                        base64Decode(item['image']),
+                        width: 50,
+                        height: 50,
+                        fit: BoxFit.cover,
+                      ),
                     )
-                        : const Icon(Icons.fastfood, size: 50, color: Colors.orange),
+                        : const Icon(Icons.fastfood,
+                        size: 50, color: Colors.orange),
                     title: Text(
                       item['name'] ?? "Unnamed Item",
                       style: const TextStyle(fontWeight: FontWeight.bold),
@@ -94,7 +134,8 @@ class _AddItemScreenState extends State<AddItemScreen> {
                           },
                         ),
                         IconButton(
-                          icon: const Icon(Icons.delete, color: Colors.red),
+                          icon:
+                          const Icon(Icons.delete, color: Colors.red),
                           onPressed: () {
                             setState(() {
                               itemsToBeAdded.removeAt(index);
@@ -157,7 +198,7 @@ class _AddItemScreenState extends State<AddItemScreen> {
 class AddSingleItemDialog extends StatefulWidget {
   final Map<String, dynamic>? item;
 
-  const AddSingleItemDialog({Key? key, this.item}) : super(key: key);
+  const AddSingleItemDialog({super.key, this.item});
 
   @override
   _AddSingleItemDialogState createState() => _AddSingleItemDialogState();
@@ -167,7 +208,7 @@ class _AddSingleItemDialogState extends State<AddSingleItemDialog> {
   final _itemNameController = TextEditingController();
   final _expiryDateController = TextEditingController();
   DateTime? _expiryDate;
-  File? _itemImage;
+  String? _imageBase64;
   String _selectedCategory = "Fruits";
 
   @override
@@ -179,7 +220,7 @@ class _AddSingleItemDialogState extends State<AddSingleItemDialog> {
       _expiryDateController.text = _expiryDate != null
           ? DateFormat('yyyy-MM-dd').format(_expiryDate!)
           : "";
-      _itemImage = widget.item!['image'];
+      _imageBase64 = widget.item!['image'];
       _selectedCategory = widget.item!['category'] ?? "Fruits";
     }
   }
@@ -194,18 +235,33 @@ class _AddSingleItemDialogState extends State<AddSingleItemDialog> {
     if (picked != null) {
       setState(() {
         _expiryDate = picked;
-        _expiryDateController.text = DateFormat('yyyy-MM-dd').format(_expiryDate!);
+        _expiryDateController.text =
+            DateFormat('yyyy-MM-dd').format(_expiryDate!);
       });
     }
   }
 
-  Future<void> _pickImage() async {
+  Future<void> _pickImage({bool fromCamera = false}) async {
     final picker = ImagePicker();
-    final pickedFile = await picker.pickImage(source: ImageSource.gallery);
+    final pickedFile = await picker.pickImage(
+      source: fromCamera ? ImageSource.camera : ImageSource.gallery,
+    );
+
     if (pickedFile != null) {
-      setState(() {
-        _itemImage = File(pickedFile.path);
-      });
+      final fileBytes = await pickedFile.readAsBytes();
+
+      // Resize and compress the image
+      img.Image? originalImage = img.decodeImage(fileBytes);
+      if (originalImage != null) {
+        img.Image resizedImage =
+        img.copyResize(originalImage, width: 300, height: 300);
+        final compressedBytes =
+        img.encodeJpg(resizedImage, quality: 85); // Quality between 0 and 100
+
+        setState(() {
+          _imageBase64 = base64Encode(compressedBytes);
+        });
+      }
     }
   }
 
@@ -237,7 +293,8 @@ class _AddSingleItemDialogState extends State<AddSingleItemDialog> {
                 controller: _itemNameController,
                 decoration: InputDecoration(
                   labelText: "Item Name",
-                  border: OutlineInputBorder(borderRadius: BorderRadius.circular(8)),
+                  border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(8)),
                 ),
               ),
               const SizedBox(height: 16),
@@ -246,7 +303,8 @@ class _AddSingleItemDialogState extends State<AddSingleItemDialog> {
                 readOnly: true,
                 decoration: InputDecoration(
                   labelText: "Expiry Date",
-                  border: OutlineInputBorder(borderRadius: BorderRadius.circular(8)),
+                  border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(8)),
                   suffixIcon: IconButton(
                     icon: const Icon(Icons.calendar_today),
                     onPressed: () => _selectExpiryDate(context),
@@ -269,36 +327,47 @@ class _AddSingleItemDialogState extends State<AddSingleItemDialog> {
                 },
                 decoration: InputDecoration(
                   labelText: "Category",
-                  border: OutlineInputBorder(borderRadius: BorderRadius.circular(8)),
+                  border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(8)),
                 ),
               ),
               const SizedBox(height: 16),
-              GestureDetector(
-                onTap: _pickImage,
-                child: Container(
-                  height: 150,
-                  decoration: BoxDecoration(
-                    border: Border.all(color: Colors.grey),
-                    borderRadius: BorderRadius.circular(8),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  ElevatedButton(
+                    onPressed: () => _pickImage(fromCamera: true),
+                    child: const Text("Take Photo"),
                   ),
-                  child: _itemImage != null
-                      ? Image.file(_itemImage!, fit: BoxFit.cover)
-                      : const Center(child: Text("Add Photo (Optional)")),
-                ),
+                  ElevatedButton(
+                    onPressed: () => _pickImage(),
+                    child: const Text("Upload Photo"),
+                  ),
+                ],
               ),
+              const SizedBox(height: 10),
+              if (_imageBase64 != null)
+                Image.memory(
+                  base64Decode(_imageBase64!),
+                  height: 150,
+                  fit: BoxFit.cover,
+                ),
               const SizedBox(height: 16),
               ElevatedButton(
                 onPressed: () {
-                  if (_itemNameController.text.isNotEmpty && _expiryDate != null) {
+                  if (_itemNameController.text.isNotEmpty &&
+                      _expiryDate != null) {
                     Navigator.pop(context, {
                       'name': _itemNameController.text,
                       'expiryDate': _expiryDate!,
-                      'image': _itemImage,
+                      'image': _imageBase64,
                       'category': _selectedCategory,
                     });
                   } else {
                     ScaffoldMessenger.of(context).showSnackBar(
-                      const SnackBar(content: Text("Please complete all required fields.")),
+                      const SnackBar(
+                          content:
+                          Text("Please complete all required fields.")),
                     );
                   }
                 },

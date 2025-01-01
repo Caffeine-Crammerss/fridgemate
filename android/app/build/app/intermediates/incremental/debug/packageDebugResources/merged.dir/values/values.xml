@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firebase_database_url" translatable="false">https://fridge-mate-9040b-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+    <string name="gcm_defaultSenderId" translatable="false">915068161084</string>
+    <string name="google_api_key" translatable="false">AIzaSyBjVqpUjoa-DLHaJ9QNUG24OlNQWFLaSlU</string>
+    <string name="google_app_id" translatable="false">1:915068161084:android:98c14d4ca1a0948c9fc739</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBjVqpUjoa-DLHaJ9QNUG24OlNQWFLaSlU</string>
+    <string name="google_storage_bucket" translatable="false">fridge-mate-9040b.firebasestorage.app</string>
+    <string name="project_id" translatable="false">fridge-mate-9040b</string>
+    <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+    <style name="NormalTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">?android:colorBackground</item>
+    </style>
+</resources>

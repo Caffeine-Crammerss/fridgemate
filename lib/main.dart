@@ -1,14 +1,11 @@
-//Basel's 12/10/2024 update
 import 'package:firebase_core/firebase_core.dart';
-import 'package:cloud_firestore/cloud_firestore.dart'; // delete
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'screens/auth_screen.dart';
-import 'screens/home_screen.dart'; // Import HomeScreen
+import 'screens/home_screen.dart'; // Import HomeScreen with the corrected state
 import 'screens/settings_screen.dart';
 import 'screens/add_item_screen.dart';
-import 'screens/my_items_screen.dart' as my_items; // Import MyItemsScreen with alias
-import 'globals.dart'; // Import globals to access itemList
+import 'screens/my_items_screen.dart'; // Import MyItemsScreen
+import 'globals.dart'; // Ensure this file contains `itemList` and `categories`
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -17,6 +14,11 @@ void main() async {
 }
 
 class FridgeMateApp extends StatelessWidget {
+  // Define a GlobalKey for HomeScreen
+  final GlobalKey<HomeScreenState> homeScreenKey = GlobalKey<HomeScreenState>();
+
+  FridgeMateApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -25,17 +27,22 @@ class FridgeMateApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         scaffoldBackgroundColor: Colors.white,
       ),
-      initialRoute: '/', // Set initial route to AuthScreen
+      initialRoute: '/',
       routes: {
         '/': (context) => const AuthScreen(),
-        '/home': (context) => const HomeScreen(), // HomeScreen uses the global `itemList`
-        '/settings': (context) => SettingsScreen(),
+        '/home': (context) => HomeScreen(key: homeScreenKey),
+        '/settings': (context) => const SettingsScreen(),
         '/addItem': (context) => AddItemScreen(
           onItemsAdded: (newItems) {
-            itemList.addAll(newItems); // Access the global `itemList` here
+            itemList.addAll(newItems); // Update the global itemList
+            homeScreenKey.currentState?.refreshRecentItems(); // Refresh HomeScreen
           },
         ),
-        '/myItems': (context) => const my_items.MyItemsScreen(), // MyItemsScreen uses the global `itemList`
+        '/myItems': (context) => MyItemsScreen(
+          refreshHomeScreen: () {
+            homeScreenKey.currentState?.refreshRecentItems();
+          },
+        ),
       },
     );
   }
