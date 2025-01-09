@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "915068161084",
+    "firebase_url": "https://fridge-mate-9040b-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "fridge-mate-9040b",
+    "storage_bucket": "fridge-mate-9040b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915068161084:android:98c14d4ca1a0948c9fc739",
+        "android_client_info": {
+          "package_name": "com.example.fridgemate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjVqpUjoa-DLHaJ9QNUG24OlNQWFLaSlU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
