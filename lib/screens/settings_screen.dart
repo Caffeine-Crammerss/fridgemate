@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'dart:io';
 import 'package:image_picker/image_picker.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({Key? key}) : super(key: key);
@@ -14,11 +16,13 @@ class _SettingsScreenState extends State<SettingsScreen> {
   String _userName = "Your Name";
   File? _userPhoto;
 
+  final _newNameController = TextEditingController();
   final _oldPasswordController = TextEditingController();
   final _newPasswordController = TextEditingController();
 
   @override
   void dispose() {
+    _newNameController.dispose();
     _oldPasswordController.dispose();
     _newPasswordController.dispose();
     super.dispose();
@@ -75,27 +79,21 @@ class _SettingsScreenState extends State<SettingsScreen> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             ListTile(
-              leading: const Icon(Icons.lock, color: Colors.deepOrange),
-              title: const Text("Change Password"),
-              onTap: () {
-                _showChangePasswordDialog();
-              },
+              leading: const Icon(Icons.account_circle, color: Colors.deepOrange),
+              title: const Text("Update Name"),
+              onTap: _showUpdateNameDialog,
             ),
             Divider(color: Colors.grey[300]),
             ListTile(
-              leading: const Icon(Icons.account_circle, color: Colors.deepOrange),
-              title: const Text("Update Profile"),
-              onTap: () {
-                _showUpdateProfileDialog();
-              },
+              leading: const Icon(Icons.lock, color: Colors.deepOrange),
+              title: const Text("Change Password"),
+              onTap: _showChangePasswordDialog,
             ),
             Divider(color: Colors.grey[300]),
             ListTile(
               leading: const Icon(Icons.exit_to_app, color: Colors.red),
               title: const Text("Log Out"),
-              onTap: () {
-                _handleLogout();
-              },
+              onTap: _handleLogout,
             ),
           ],
         ),
@@ -165,19 +163,66 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 );
               },
             ),
-            Divider(color: Colors.grey[300]),
-            ListTile(
-              leading: const Icon(Icons.storage, color: Colors.deepOrange),
-              title: const Text("Manage Storage"),
-              onTap: () {
-                _showManageStorageDialog();
-              },
-            ),
           ],
         ),
       ),
     );
   }
+
+  void _showUpdateNameDialog() {
+
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: const Text("Update Name"),
+          content: TextField(
+            controller: _newNameController,
+            decoration: const InputDecoration(
+              labelText: "New Name",
+              border: OutlineInputBorder(),
+            ),
+          ),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.of(context).pop(),
+              child: const Text("Cancel"),
+            ),
+            TextButton(
+              onPressed: () async {
+                User? user = FirebaseAuth.instance.currentUser;
+
+                if (user != null) {
+                  try {
+                    // Update name in Firestore
+                    await FirebaseFirestore.instance
+                        .collection('users')
+                        .doc(user.uid)
+                        .update({'fullName': _newNameController.text});
+
+                    setState(() {
+                      _userName = _newNameController.text; // Update locally
+                    });
+
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      const SnackBar(content: Text("Name updated successfully.")),
+                    );
+                    Navigator.of(context).pop();
+                  } catch (e) {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      const SnackBar(content: Text("Error updating name.")),
+                    );
+                  }
+                }
+              },
+              child: const Text("Save"),
+            ),
+          ],
+        );
+      },
+    );
+  }
+
 
   void _showChangePasswordDialog() {
     showDialog(
@@ -209,20 +254,35 @@ class _SettingsScreenState extends State<SettingsScreen> {
           ),
           actions: [
             TextButton(
-              onPressed: () {
-                Navigator.of(context).pop();
-              },
+              onPressed: () => Navigator.of(context).pop(),
               child: const Text("Cancel"),
             ),
             TextButton(
-              onPressed: () {
-                // Simulate password validation and change
-                if (_oldPasswordController.text == "current_password") { // Replace with actual validation logic
+              onPressed: () async {
+                try {
+                  User? user = FirebaseAuth.instance.currentUser;
+                  String email = user?.email ?? '';
+
+                  // Re-authenticate with old password
+                  await FirebaseAuth.instance.signInWithEmailAndPassword(
+                    email: email,
+                    password: _oldPasswordController.text,
+                  );
+
+                  // Update password in Firebase Auth
+                  await user?.updatePassword(_newPasswordController.text);
+
+                  // Update password in Firestore
+                  await FirebaseFirestore.instance
+                      .collection('users')
+                      .doc(user?.uid)
+                      .update({'password': _newPasswordController.text});
+
                   ScaffoldMessenger.of(context).showSnackBar(
                     const SnackBar(content: Text("Password changed successfully.")),
                   );
                   Navigator.of(context).pop();
-                } else {
+                } catch (e) {
                   ScaffoldMessenger.of(context).showSnackBar(
                     const SnackBar(content: Text("Old password is incorrect.")),
                   );
@@ -236,105 +296,10 @@ class _SettingsScreenState extends State<SettingsScreen> {
     );
   }
 
-  void _showUpdateProfileDialog() {
-    showDialog(
-      context: context,
-      builder: (BuildContext context) {
-        return AlertDialog(
-          title: const Text("Update Profile"),
-          content: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              GestureDetector(
-                onTap: _pickImage,
-                child: CircleAvatar(
-                  radius: 40,
-                  backgroundImage: _userPhoto != null ? FileImage(_userPhoto!) : null,
-                  child: _userPhoto == null
-                      ? const Icon(Icons.camera_alt, size: 40, color: Colors.grey)
-                      : null,
-                ),
-              ),
-              const SizedBox(height: 10),
-              TextField(
-                decoration: const InputDecoration(
-                  labelText: "Name",
-                  border: OutlineInputBorder(),
-                ),
-                onChanged: (value) {
-                  setState(() {
-                    _userName = value;
-                  });
-                },
-              ),
-            ],
-          ),
-          actions: [
-            TextButton(
-              onPressed: () {
-                Navigator.of(context).pop();
-              },
-              child: const Text("Cancel"),
-            ),
-            TextButton(
-              onPressed: () {
-                setState(() {}); // Update profile changes
-                ScaffoldMessenger.of(context).showSnackBar(
-                  const SnackBar(content: Text("Profile updated successfully.")),
-                );
-                Navigator.of(context).pop();
-              },
-              child: const Text("Save"),
-            ),
-          ],
-        );
-      },
-    );
-  }
-
-  Future<void> _pickImage() async {
-    final picker = ImagePicker();
-    final pickedFile = await picker.pickImage(source: ImageSource.gallery);
-    if (pickedFile != null) {
-      setState(() {
-        _userPhoto = File(pickedFile.path);
-      });
-    }
-  }
-
   void _handleLogout() {
     ScaffoldMessenger.of(context).showSnackBar(
       const SnackBar(content: Text("Logged out successfully.")),
     );
     Navigator.of(context).pushReplacementNamed("/");
-  }
-
-  void _showManageStorageDialog() {
-    showDialog(
-      context: context,
-      builder: (BuildContext context) {
-        return AlertDialog(
-          title: const Text("Manage Storage"),
-          content: const Text("Clear cache and free up storage space."),
-          actions: [
-            TextButton(
-              onPressed: () {
-                Navigator.of(context).pop();
-              },
-              child: const Text("Cancel"),
-            ),
-            TextButton(
-              onPressed: () {
-                ScaffoldMessenger.of(context).showSnackBar(
-                  const SnackBar(content: Text("Storage cleared successfully.")),
-                );
-                Navigator.of(context).pop();
-              },
-              child: const Text("Clear"),
-            ),
-          ],
-        );
-      },
-    );
   }
 }
