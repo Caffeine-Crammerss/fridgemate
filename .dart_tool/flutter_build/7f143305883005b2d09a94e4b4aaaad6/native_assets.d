@@ -1,1 +1,0 @@
- C:\\Users\\basel\\StudioProjects\\FridgeMate\\.dart_tool\\flutter_build\\7f143305883005b2d09a94e4b4aaaad6\\native_assets.yaml: 

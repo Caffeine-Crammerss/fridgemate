@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.fridgemate.app-mergeDebugResources-36:/values-sl/values-sl.xml",
+            "outputFile": "com.example.fridgemate.app-mergeDebugResources-5:/values-sl/values-sl.xml",
             "map": [
                 {
                     "source": "C:\\Users\\basel\\.gradle\\caches\\8.10.2\\transforms\\01362fc6d446dbe5485c4a44efcb82cc\\transformed\\core-1.13.1\\res\\values-sl\\values-sl.xml",

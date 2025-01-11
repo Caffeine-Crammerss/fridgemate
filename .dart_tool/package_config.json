@@ -3,7 +3,13 @@
   "packages": [
     {
       "name": "_flutterfire_internals",
-      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/_flutterfire_internals-1.3.48",
+      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/_flutterfire_internals-1.3.49",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "animations",
+      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/animations-2.0.11",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
@@ -39,19 +45,19 @@
     },
     {
       "name": "cloud_firestore",
-      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/cloud_firestore-5.6.0",
+      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/cloud_firestore-5.6.1",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "cloud_firestore_platform_interface",
-      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/cloud_firestore_platform_interface-6.6.0",
+      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/cloud_firestore_platform_interface-6.6.1",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "cloud_firestore_web",
-      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/cloud_firestore_web-4.4.0",
+      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/cloud_firestore_web-4.4.1",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
@@ -80,10 +86,22 @@
       "languageVersion": "3.1"
     },
     {
+      "name": "equatable",
+      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/equatable-2.0.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "fake_async",
       "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/fake_async-1.3.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "ffi",
+      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/ffi-2.1.3",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
     },
     {
       "name": "file_selector_linux",
@@ -111,25 +129,25 @@
     },
     {
       "name": "firebase_auth",
-      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_auth-5.3.4",
+      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_auth-5.4.0",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "firebase_auth_platform_interface",
-      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_auth_platform_interface-7.4.10",
+      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_auth_platform_interface-7.5.0",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "firebase_auth_web",
-      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_auth_web-5.13.5",
+      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_auth_web-5.13.6",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
     {
       "name": "firebase_core",
-      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_core-3.9.0",
+      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_core-3.10.0",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
@@ -147,21 +165,27 @@
     },
     {
       "name": "firebase_storage",
-      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_storage-12.3.7",
+      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_storage-12.4.0",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "firebase_storage_platform_interface",
-      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_storage_platform_interface-5.1.34",
+      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_storage_platform_interface-5.2.0",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "firebase_storage_web",
-      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_storage_web-3.10.6",
+      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/firebase_storage_web-3.10.7",
       "packageUri": "lib/",
       "languageVersion": "3.4"
+    },
+    {
+      "name": "fl_chart",
+      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/fl_chart-0.65.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
     },
     {
       "name": "flutter",
@@ -192,6 +216,12 @@
       "rootUri": "file:///C:/Flutter%20SDK/src/flutter/packages/flutter_web_plugins",
       "packageUri": "lib/",
       "languageVersion": "3.2"
+    },
+    {
+      "name": "google_fonts",
+      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/google_fonts-4.0.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
     },
     {
       "name": "http",
@@ -231,9 +261,9 @@
     },
     {
       "name": "image_picker_ios",
-      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/image_picker_ios-0.8.12+1",
+      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/image_picker_ios-0.8.12+2",
       "packageUri": "lib/",
-      "languageVersion": "3.3"
+      "languageVersion": "3.4"
     },
     {
       "name": "image_picker_linux",
@@ -249,9 +279,9 @@
     },
     {
       "name": "image_picker_platform_interface",
-      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/image_picker_platform_interface-2.10.0",
+      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/image_picker_platform_interface-2.10.1",
       "packageUri": "lib/",
-      "languageVersion": "3.3"
+      "languageVersion": "3.4"
     },
     {
       "name": "image_picker_windows",
@@ -320,8 +350,50 @@
       "languageVersion": "3.0"
     },
     {
+      "name": "path_provider",
+      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider-2.1.5",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "path_provider_android",
+      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider_android-2.2.15",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
+    },
+    {
+      "name": "path_provider_foundation",
+      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider_foundation-2.4.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "path_provider_linux",
+      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider_linux-2.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "path_provider_platform_interface",
+      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider_platform_interface-2.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "path_provider_windows",
+      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider_windows-2.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
       "name": "petitparser",
       "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/petitparser-6.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "platform",
+      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/platform-3.1.6",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
@@ -398,6 +470,12 @@
       "languageVersion": "3.4"
     },
     {
+      "name": "xdg_directories",
+      "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/xdg_directories-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
       "name": "xml",
       "rootUri": "file:///C:/Users/basel/AppData/Local/Pub/Cache/hosted/pub.dev/xml-6.5.0",
       "packageUri": "lib/",
@@ -410,7 +488,7 @@
       "languageVersion": "3.5"
     }
   ],
-  "generated": "2024-12-27T19:06:51.556574Z",
+  "generated": "2025-01-11T00:41:20.040480Z",
   "generator": "pub",
   "generatorVersion": "3.5.4",
   "flutterRoot": "file:///C:/Flutter%20SDK/src/flutter",

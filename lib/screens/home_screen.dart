@@ -444,6 +444,10 @@ class HomeScreenState extends State<HomeScreen> {
             Navigator.pop(context);
             Navigator.pushNamed(context, '/settings');
           }),
+          _buildDrawerItem(Icons.dashboard, "Dashboard", () {
+            Navigator.pop(context);
+            Navigator.pushNamed(context, '/dashboard');
+          }),
           const Divider(),
           _buildDrawerItem(Icons.logout, "Log Out", () {
             Navigator.pop(context);

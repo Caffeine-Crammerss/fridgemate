@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.fridgemate.app-mergeDebugResources-36:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.example.fridgemate.app-mergeDebugResources-5:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\basel\\StudioProjects\\FridgeMate\\fridgemate\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\GitHub\\fridgemate\\fridgemate\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

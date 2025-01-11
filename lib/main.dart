@@ -1,5 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:fridgemate/screens/dashboard_screen.dart';
 import 'screens/auth_screen.dart';
 import 'screens/home_screen.dart'; // Import HomeScreen with the corrected state
 import 'screens/settings_screen.dart';
@@ -31,6 +32,7 @@ class FridgeMateApp extends StatelessWidget {
         '/': (context) => const AuthScreen(),
         '/home': (context) => HomeScreen(key: homeScreenKey),
         '/settings': (context) => const SettingsScreen(),
+        '/dashboard': (context) => const DashboardScreen(),
         '/addItem': (context) => AddItemScreen(
           onItemsAdded: (newItems) {
             itemList.addAll(newItems); // Update the global itemList

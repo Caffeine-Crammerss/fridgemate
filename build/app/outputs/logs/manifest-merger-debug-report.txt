@@ -1,17 +1,17 @@
 -- Merging decision tree log ---
 application
-INJECTED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:2:5-33:19
-INJECTED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\debug\AndroidManifest.xml
-MERGED from [:cloud_firestore] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-13:19
-MERGED from [:cloud_firestore] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_auth] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_auth] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_storage] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_storage] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_core] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_core] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-13:19
-MERGED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:5-32:19
-MERGED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:5-32:19
+INJECTED from C:\GitHub\fridgemate\fridgemate\android\app\src\main\AndroidManifest.xml:2:5-33:19
+INJECTED from C:\GitHub\fridgemate\fridgemate\android\app\src\debug\AndroidManifest.xml
+MERGED from [:cloud_firestore] C:\GitHub\fridgemate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] C:\GitHub\fridgemate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] C:\GitHub\fridgemate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] C:\GitHub\fridgemate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_storage] C:\GitHub\fridgemate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_storage] C:\GitHub\fridgemate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] C:\GitHub\fridgemate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] C:\GitHub\fridgemate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-13:19
+MERGED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:5-32:19
+MERGED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:5-32:19
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:13:5-24:19
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:13:5-24:19
 MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:28:5-73:19
@@ -79,23 +79,23 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ba
 MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\8923fcffd8562f9b2eaf0ca15f24dd05\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:11:5-19:19
 MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\8923fcffd8562f9b2eaf0ca15f24dd05\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:11:5-19:19
 	android:extractNativeLibs
-		INJECTED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\GitHub\fridgemate\fridgemate\android\app\src\debug\AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\01362fc6d446dbe5485c4a44efcb82cc\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 	android:name
-		INJECTED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\GitHub\fridgemate\fridgemate\android\app\src\main\AndroidManifest.xml
 manifest
-ADDED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:1:1-45:12
-MERGED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:1:1-45:12
-INJECTED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\debug\AndroidManifest.xml:1:1-7:12
-INJECTED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\debug\AndroidManifest.xml:1:1-7:12
-INJECTED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\debug\AndroidManifest.xml:1:1-7:12
-MERGED from [:cloud_firestore] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-15:12
-MERGED from [:firebase_auth] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-15:12
-MERGED from [:firebase_storage] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-15:12
-MERGED from [:firebase_core] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-15:12
-MERGED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-34:12
-MERGED from [:flutter_plugin_android_lifecycle] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
+ADDED from C:\GitHub\fridgemate\fridgemate\android\app\src\main\AndroidManifest.xml:1:1-45:12
+MERGED from C:\GitHub\fridgemate\fridgemate\android\app\src\main\AndroidManifest.xml:1:1-45:12
+INJECTED from C:\GitHub\fridgemate\fridgemate\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\GitHub\fridgemate\fridgemate\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\GitHub\fridgemate\fridgemate\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+MERGED from [:cloud_firestore] C:\GitHub\fridgemate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_auth] C:\GitHub\fridgemate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_storage] C:\GitHub\fridgemate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core] C:\GitHub\fridgemate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-15:12
+MERGED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-34:12
+MERGED from [:flutter_plugin_android_lifecycle] C:\GitHub\fridgemate\fridgemate\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:17:1-75:12
 MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\f5c59980b505e74e691614ec3e42c3a9\transformed\jetified-firebase-storage-21.0.1\AndroidManifest.xml:15:1-39:12
@@ -138,7 +138,7 @@ MERGED from [com.google.android.gms:play-services-measurement-base:22.1.2] C:\Us
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\f77c97c6e123cc47b103664288e96b75\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\1530fad08259bb12947dcf89031f1871\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.fragment:fragment:1.7.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\1387c6830c7856304dc2526ede0eb98b\transformed\fragment-1.7.1\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.activity:activity:1.9.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\fdad6989387e0f21509e39cd915cdeb3\transformed\jetified-activity-1.9.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\cc6fd79d634615670b723531ec25fe72\transformed\jetified-activity-1.9.3\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.browser:browser:1.4.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\463dd5f55b5f85e21f758a3dd3b873bc\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\58afcc9209af49062f322dff2d03e561\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] C:\Users\basel\.gradle\caches\8.10.2\transforms\dcef78d391951431344f3a4d158d49b8\transformed\jetified-ads-adservices-java-1.0.0-beta05\AndroidManifest.xml:2:1-7:12
@@ -167,27 +167,27 @@ MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\bas
 MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\d2eb9f62624d2e6436c7df5838fe3946\transformed\jetified-grpc-android-1.62.2\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\8923fcffd8562f9b2eaf0ca15f24dd05\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:2:1-21:12
 	package
-		INJECTED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\GitHub\fridgemate\fridgemate\android\app\src\debug\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\GitHub\fridgemate\fridgemate\android\app\src\debug\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\GitHub\fridgemate\fridgemate\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from C:\GitHub\fridgemate\fridgemate\android\app\src\main\AndroidManifest.xml:1:11-69
 queries
-ADDED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:39:5-44:15
+ADDED from C:\GitHub\fridgemate\fridgemate\android\app\src\main\AndroidManifest.xml:39:5-44:15
 intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
-ADDED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:40:9-43:18
+ADDED from C:\GitHub\fridgemate\fridgemate\android\app\src\main\AndroidManifest.xml:40:9-43:18
 action#android.intent.action.PROCESS_TEXT
-ADDED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:41:13-72
+ADDED from C:\GitHub\fridgemate\fridgemate\android\app\src\main\AndroidManifest.xml:41:13-72
 	android:name
-		ADDED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:41:21-70
+		ADDED from C:\GitHub\fridgemate\fridgemate\android\app\src\main\AndroidManifest.xml:41:21-70
 data
-ADDED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:42:13-50
+ADDED from C:\GitHub\fridgemate\fridgemate\android\app\src\main\AndroidManifest.xml:42:13-50
 	android:mimeType
-		ADDED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:42:19-48
+		ADDED from C:\GitHub\fridgemate\fridgemate\android\app\src\main\AndroidManifest.xml:42:19-48
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\debug\AndroidManifest.xml:6:5-66
+ADDED from C:\GitHub\fridgemate\fridgemate\android\app\src\debug\AndroidManifest.xml:6:5-66
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:25:5-67
@@ -207,23 +207,23 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\20776d0a6108e5ed5b6422a19a0d77c5\transformed\jetified-play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\20776d0a6108e5ed5b6422a19a0d77c5\transformed\jetified-play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\debug\AndroidManifest.xml:6:22-64
+		ADDED from C:\GitHub\fridgemate\fridgemate\android\app\src\debug\AndroidManifest.xml:6:22-64
 uses-sdk
-INJECTED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\debug\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\debug\AndroidManifest.xml
-INJECTED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\debug\AndroidManifest.xml
-MERGED from [:cloud_firestore] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
-MERGED from [:cloud_firestore] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_auth] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_auth] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_storage] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_storage] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
-MERGED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:6:5-44
-MERGED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:6:5-44
-MERGED from [:flutter_plugin_android_lifecycle] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
-MERGED from [:flutter_plugin_android_lifecycle] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+INJECTED from C:\GitHub\fridgemate\fridgemate\android\app\src\debug\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\GitHub\fridgemate\fridgemate\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\GitHub\fridgemate\fridgemate\android\app\src\debug\AndroidManifest.xml
+MERGED from [:cloud_firestore] C:\GitHub\fridgemate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] C:\GitHub\fridgemate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] C:\GitHub\fridgemate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] C:\GitHub\fridgemate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] C:\GitHub\fridgemate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] C:\GitHub\fridgemate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] C:\GitHub\fridgemate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] C:\GitHub\fridgemate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:6:5-44
+MERGED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:6:5-44
+MERGED from [:flutter_plugin_android_lifecycle] C:\GitHub\fridgemate\fridgemate\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] C:\GitHub\fridgemate\fridgemate\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:6:5-44
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:6:5-44
 MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:21:5-23:151
@@ -308,8 +308,8 @@ MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\base
 MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\1530fad08259bb12947dcf89031f1871\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
 MERGED from [androidx.fragment:fragment:1.7.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\1387c6830c7856304dc2526ede0eb98b\transformed\fragment-1.7.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.fragment:fragment:1.7.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\1387c6830c7856304dc2526ede0eb98b\transformed\fragment-1.7.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity:1.9.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\fdad6989387e0f21509e39cd915cdeb3\transformed\jetified-activity-1.9.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.9.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\fdad6989387e0f21509e39cd915cdeb3\transformed\jetified-activity-1.9.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\cc6fd79d634615670b723531ec25fe72\transformed\jetified-activity-1.9.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\cc6fd79d634615670b723531ec25fe72\transformed\jetified-activity-1.9.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.browser:browser:1.4.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\463dd5f55b5f85e21f758a3dd3b873bc\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.browser:browser:1.4.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\463dd5f55b5f85e21f758a3dd3b873bc\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\58afcc9209af49062f322dff2d03e561\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
@@ -367,17 +367,17 @@ MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\basel\.gradle\c
 	tools:overrideLibrary
 		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:23:9-148
 	android:targetSdkVersion
-		INJECTED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\GitHub\fridgemate\fridgemate\android\app\src\debug\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\GitHub\fridgemate\fridgemate\android\app\src\debug\AndroidManifest.xml
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:cloud_firestore] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_auth] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_auth] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_storage] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_storage] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_core] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_core] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-12:19
+ADDED from [:cloud_firestore] C:\GitHub\fridgemate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_auth] C:\GitHub\fridgemate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_auth] C:\GitHub\fridgemate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_storage] C:\GitHub\fridgemate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_storage] C:\GitHub\fridgemate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] C:\GitHub\fridgemate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] C:\GitHub\fridgemate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-12:19
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:14:9-23:19
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:14:9-23:19
 MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:66:9-72:19
@@ -401,69 +401,69 @@ MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\basel\.gradle\
 	android:directBootAware
 		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\2ffeafe70dd6441c50a80f2c5812be8e\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:32:13-43
 	android:name
-		ADDED from [:cloud_firestore] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:18-89
+		ADDED from [:cloud_firestore] C:\GitHub\fridgemate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:18-89
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
-ADDED from [:cloud_firestore] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-11:85
+ADDED from [:cloud_firestore] C:\GitHub\fridgemate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:cloud_firestore] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:17-82
+		ADDED from [:cloud_firestore] C:\GitHub\fridgemate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:cloud_firestore] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:17-134
+		ADDED from [:cloud_firestore] C:\GitHub\fridgemate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:17-134
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
-ADDED from [:firebase_auth] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-11:85
+ADDED from [:firebase_auth] C:\GitHub\fridgemate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:firebase_auth] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:17-82
+		ADDED from [:firebase_auth] C:\GitHub\fridgemate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:firebase_auth] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:17-124
+		ADDED from [:firebase_auth] C:\GitHub\fridgemate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:17-124
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar
-ADDED from [:firebase_storage] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-11:85
+ADDED from [:firebase_storage] C:\GitHub\fridgemate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:firebase_storage] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:17-82
+		ADDED from [:firebase_storage] C:\GitHub\fridgemate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:firebase_storage] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:17-126
+		ADDED from [:firebase_storage] C:\GitHub\fridgemate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:17-126
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
-ADDED from [:firebase_core] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-11:85
+ADDED from [:firebase_core] C:\GitHub\fridgemate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:firebase_core] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:17-82
+		ADDED from [:firebase_core] C:\GitHub\fridgemate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:firebase_core] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:17-124
+		ADDED from [:firebase_core] C:\GitHub\fridgemate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:17-124
 provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
-ADDED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:9-17:20
+ADDED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:9-17:20
 	android:grantUriPermissions
-		ADDED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:13:13-47
+		ADDED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:13:13-47
 	android:authorities
-		ADDED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:13-74
+		ADDED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:13-74
 	android:exported
-		ADDED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:12:13-37
+		ADDED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:12:13-37
 	android:name
-		ADDED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:13-82
+		ADDED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:13-82
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:14:13-16:75
+ADDED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:14:13-16:75
 	android:resource
-		ADDED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:16:17-72
+		ADDED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:16:17-72
 	android:name
-		ADDED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:15:17-67
+		ADDED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:15:17-67
 service#com.google.android.gms.metadata.ModuleDependencies
-ADDED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:19:9-31:19
+ADDED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:19:9-31:19
 	android:enabled
-		ADDED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:21:13-36
+		ADDED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:21:13-36
 	android:exported
-		ADDED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:22:13-37
+		ADDED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:22:13-37
 	tools:ignore
-		ADDED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:23:13-40
+		ADDED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:23:13-40
 	android:name
-		ADDED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:20:13-78
+		ADDED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:20:13-78
 intent-filter#action:name:com.google.android.gms.metadata.MODULE_DEPENDENCIES
-ADDED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:24:13-26:29
+ADDED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:24:13-26:29
 action#com.google.android.gms.metadata.MODULE_DEPENDENCIES
-ADDED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:25:17-94
+ADDED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:25:17-94
 	android:name
-		ADDED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:25:25-91
+		ADDED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:25:25-91
 meta-data#photopicker_activity:0:required
-ADDED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:28:13-30:36
+ADDED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:28:13-30:36
 	android:value
-		ADDED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:30:17-33
+		ADDED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:30:17-33
 	android:name
-		ADDED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:29:17-63
+		ADDED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:29:17-63
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:10:5-79
 MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:26:5-79

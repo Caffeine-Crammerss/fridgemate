@@ -13,8 +13,8 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\debug\AndroidManifest.xml:6:5-66
-15-->C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\debug\AndroidManifest.xml:6:22-64
+15-->C:\GitHub\fridgemate\fridgemate\android\app\src\debug\AndroidManifest.xml:6:5-66
+15-->C:\GitHub\fridgemate\fridgemate\android\app\src\debug\AndroidManifest.xml:6:22-64
 16    <!--
 17     Required to query activities that can process text, see:
 18         https://developer.android.com/training/package-visibility and
@@ -23,16 +23,16 @@
 21         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
 22    -->
 23    <queries>
-23-->C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:39:5-44:15
+23-->C:\GitHub\fridgemate\fridgemate\android\app\src\main\AndroidManifest.xml:39:5-44:15
 24        <intent>
-24-->C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:40:9-43:18
+24-->C:\GitHub\fridgemate\fridgemate\android\app\src\main\AndroidManifest.xml:40:9-43:18
 25            <action android:name="android.intent.action.PROCESS_TEXT" />
-25-->C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:41:13-72
-25-->C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:41:21-70
+25-->C:\GitHub\fridgemate\fridgemate\android\app\src\main\AndroidManifest.xml:41:13-72
+25-->C:\GitHub\fridgemate\fridgemate\android\app\src\main\AndroidManifest.xml:41:21-70
 26
 27            <data android:mimeType="text/plain" />
-27-->C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:42:13-50
-27-->C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:42:19-48
+27-->C:\GitHub\fridgemate\fridgemate\android\app\src\main\AndroidManifest.xml:42:13-50
+27-->C:\GitHub\fridgemate\fridgemate\android\app\src\main\AndroidManifest.xml:42:19-48
 28        </intent>
 29    </queries> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
 30    <!-- <uses-sdk android:minSdkVersion="21" /> -->
@@ -112,37 +112,37 @@
 84            android:value="2" />
 85
 86        <service
-86-->[:cloud_firestore] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-12:19
+86-->[:cloud_firestore] C:\GitHub\fridgemate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-12:19
 87            android:name="com.google.firebase.components.ComponentDiscoveryService"
-87-->[:cloud_firestore] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:18-89
+87-->[:cloud_firestore] C:\GitHub\fridgemate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:18-89
 88            android:directBootAware="true"
 88-->[com.google.firebase:firebase-common:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\2ffeafe70dd6441c50a80f2c5812be8e\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:32:13-43
 89            android:exported="false" >
 89-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:16:13-37
 90            <meta-data
-90-->[:cloud_firestore] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-11:85
+90-->[:cloud_firestore] C:\GitHub\fridgemate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-11:85
 91                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
-91-->[:cloud_firestore] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:17-134
+91-->[:cloud_firestore] C:\GitHub\fridgemate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:17-134
 92                android:value="com.google.firebase.components.ComponentRegistrar" />
-92-->[:cloud_firestore] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:17-82
+92-->[:cloud_firestore] C:\GitHub\fridgemate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:17-82
 93            <meta-data
-93-->[:firebase_auth] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-11:85
+93-->[:firebase_auth] C:\GitHub\fridgemate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-11:85
 94                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
-94-->[:firebase_auth] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:17-124
+94-->[:firebase_auth] C:\GitHub\fridgemate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:17-124
 95                android:value="com.google.firebase.components.ComponentRegistrar" />
-95-->[:firebase_auth] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:17-82
+95-->[:firebase_auth] C:\GitHub\fridgemate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:17-82
 96            <meta-data
-96-->[:firebase_storage] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-11:85
+96-->[:firebase_storage] C:\GitHub\fridgemate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-11:85
 97                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
-97-->[:firebase_storage] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:17-126
+97-->[:firebase_storage] C:\GitHub\fridgemate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:17-126
 98                android:value="com.google.firebase.components.ComponentRegistrar" />
-98-->[:firebase_storage] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:17-82
+98-->[:firebase_storage] C:\GitHub\fridgemate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:17-82
 99            <meta-data
-99-->[:firebase_core] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-11:85
+99-->[:firebase_core] C:\GitHub\fridgemate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-11:85
 100                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-100-->[:firebase_core] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:17-124
+100-->[:firebase_core] C:\GitHub\fridgemate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:17-124
 101                android:value="com.google.firebase.components.ComponentRegistrar" />
-101-->[:firebase_core] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:17-82
+101-->[:firebase_core] C:\GitHub\fridgemate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:17-82
 102            <meta-data
 102-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:17:13-19:85
 103                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
@@ -218,43 +218,43 @@
 138        </service>
 139
 140        <provider
-140-->[:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:9-17:20
+140-->[:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:9-17:20
 141            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-141-->[:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:13-82
+141-->[:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:13-82
 142            android:authorities="com.example.fridgemate.flutter.image_provider"
-142-->[:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:13-74
+142-->[:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:13-74
 143            android:exported="false"
-143-->[:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:12:13-37
+143-->[:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:12:13-37
 144            android:grantUriPermissions="true" >
-144-->[:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:13:13-47
+144-->[:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:13:13-47
 145            <meta-data
-145-->[:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:14:13-16:75
+145-->[:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:14:13-16:75
 146                android:name="android.support.FILE_PROVIDER_PATHS"
-146-->[:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:15:17-67
+146-->[:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:15:17-67
 147                android:resource="@xml/flutter_image_picker_file_paths" />
-147-->[:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:16:17-72
+147-->[:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:16:17-72
 148        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
 149        <service
-149-->[:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:19:9-31:19
+149-->[:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:19:9-31:19
 150            android:name="com.google.android.gms.metadata.ModuleDependencies"
-150-->[:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:20:13-78
+150-->[:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:20:13-78
 151            android:enabled="false"
-151-->[:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:21:13-36
+151-->[:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:21:13-36
 152            android:exported="false" >
-152-->[:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:22:13-37
+152-->[:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:22:13-37
 153            <intent-filter>
-153-->[:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:24:13-26:29
+153-->[:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:24:13-26:29
 154                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
-154-->[:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:25:17-94
-154-->[:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:25:25-91
+154-->[:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:25:17-94
+154-->[:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:25:25-91
 155            </intent-filter>
 156
 157            <meta-data
-157-->[:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:28:13-30:36
+157-->[:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:28:13-30:36
 158                android:name="photopicker_activity:0:required"
-158-->[:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:29:17-63
+158-->[:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:29:17-63
 159                android:value="" />
-159-->[:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:30:17-33
+159-->[:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:30:17-33
 160        </service>
 161
 162        <activity
@@ -283,7 +283,7 @@
 172-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:39:27-75
 173
 174                <data
-174-->C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:42:13-50
+174-->C:\GitHub\fridgemate\fridgemate\android\app\src\main\AndroidManifest.xml:42:13-50
 175                    android:host="firebase.auth"
 176                    android:path="/"
 177                    android:scheme="genericidp" />
@@ -315,7 +315,7 @@
 190-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:39:27-75
 191
 192                <data
-192-->C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:42:13-50
+192-->C:\GitHub\fridgemate\fridgemate\android\app\src\main\AndroidManifest.xml:42:13-50
 193                    android:host="firebase.auth"
 194                    android:path="/"
 195                    android:scheme="recaptcha" />
