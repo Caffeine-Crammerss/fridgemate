@@ -462,11 +462,11 @@ class _MyItemsScreenState extends State<MyItemsScreen> with SingleTickerProvider
           widget.refreshHomeScreen();
 
           ScaffoldMessenger.of(context).showSnackBar(
-              SnackBar(
+            SnackBar(
               content: Text('${item['name']} deleted successfully!'),
-    backgroundColor: Colors.deepOrange.shade400,
-    duration: const Duration (seconds: 2),
-              ),
+              backgroundColor: Colors.deepOrange.shade400,
+              duration: const Duration (seconds: 2),
+            ),
           );
         }
       } catch (e) {

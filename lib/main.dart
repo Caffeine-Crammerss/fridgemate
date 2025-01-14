@@ -1,5 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:fridgemate/screens/splash_screen.dart';
 import 'package:fridgemate/screens/dashboard_screen.dart';
 import 'screens/auth_screen.dart';
 import 'screens/home_screen.dart'; // Import HomeScreen with the corrected state
@@ -8,7 +9,7 @@ import 'screens/add_item_screen.dart';
 import 'screens/my_items_screen.dart'; // Import MyItemsScreen
 import 'globals.dart'; // Ensure this file contains `itemList` and `categories`
 
-//main -Basel (:
+//main -Basel, FridgeMate 1.0.0v
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
@@ -29,7 +30,8 @@ class FridgeMateApp extends StatelessWidget {
       ),
       initialRoute: '/',
       routes: {
-        '/': (context) => const AuthScreen(),
+        '/': (context) => const SplashScreen(),  // Changed initial route to SplashScreen
+        '/auth': (context) => const AuthScreen(),  // Added auth route
         '/home': (context) => HomeScreen(key: homeScreenKey),
         '/settings': (context) => const SettingsScreen(),
         '/dashboard': (context) => const DashboardScreen(),

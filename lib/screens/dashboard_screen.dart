@@ -320,7 +320,7 @@ class _DashboardScreenState extends State<DashboardScreen>
       width: double.infinity,
       child: ElevatedButton.icon(
         onPressed:
-            type == 'expired' ? deleteSelectedItems : consumeSelectedItems,
+        type == 'expired' ? deleteSelectedItems : consumeSelectedItems,
         style: ElevatedButton.styleFrom(
           backgroundColor: _getStatusColor(type),
           padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
@@ -460,7 +460,7 @@ class _DashboardScreenState extends State<DashboardScreen>
                   ),
                   Container(
                     padding:
-                        const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                    const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
                     decoration: BoxDecoration(
                       color: Colors.white.withOpacity(0.2),
                       borderRadius: BorderRadius.circular(12),
@@ -502,7 +502,7 @@ class _DashboardScreenState extends State<DashboardScreen>
               color: Colors.red,
               width: 20,
               borderRadius:
-                  const BorderRadius.vertical(top: Radius.circular(8)),
+              const BorderRadius.vertical(top: Radius.circular(8)),
               gradient: const LinearGradient(
                 colors: [Colors.redAccent, Colors.red],
                 begin: Alignment.topCenter,
@@ -516,7 +516,7 @@ class _DashboardScreenState extends State<DashboardScreen>
               color: Colors.orange,
               width: 20,
               borderRadius:
-                  const BorderRadius.vertical(top: Radius.circular(8)),
+              const BorderRadius.vertical(top: Radius.circular(8)),
               gradient: const LinearGradient(
                 colors: [Colors.orangeAccent, Colors.orange],
                 begin: Alignment.topCenter,
@@ -530,7 +530,7 @@ class _DashboardScreenState extends State<DashboardScreen>
               color: Colors.green,
               width: 20,
               borderRadius:
-                  const BorderRadius.vertical(top: Radius.circular(8)),
+              const BorderRadius.vertical(top: Radius.circular(8)),
               gradient: const LinearGradient(
                 colors: [Colors.greenAccent, Colors.green],
                 begin: Alignment.topCenter,
@@ -688,92 +688,92 @@ class _DashboardScreenState extends State<DashboardScreen>
       body: isLoading
           ? const Center(child: CircularProgressIndicator())
           : SingleChildScrollView(
-              child: Padding(
-                padding: const EdgeInsets.all(16.0),
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                'Overview',
+                style: TextStyle(
+                  fontSize: 24,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.grey[800],
+                  fontFamily: GoogleFonts.inter().fontFamily,
+                ),
+              ),
+              const SizedBox(height: 16),
+              Column(
+                children: [
+                  _buildExpandableSection(
+                    'Valid Items',
+                    itemCounts['valid'],
+                    Colors.green,
+                    Icons.check_circle,
+                    validItems,
+                    'valid',
+                  ),
+                  _buildExpandableSection(
+                    'About to Expire',
+                    itemCounts['aboutToExpire'],
+                    Colors.orange,
+                    Icons.warning,
+                    aboutToExpireItems,
+                    'aboutToExpire',
+                  ),
+                  _buildExpandableSection(
+                    'Expired Items',
+                    itemCounts['expired'],
+                    Colors.red,
+                    Icons.error,
+                    expiredItems,
+                    'expired',
+                  ),
+                ],
+              ),
+              const SizedBox(height: 24),
+              Container(
+                padding: const EdgeInsets.all(20),
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(16),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.black.withOpacity(0.05),
+                      blurRadius: 10,
+                      offset: const Offset(0, 4),
+                    ),
+                  ],
+                ),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Overview',
+                      'Statistics',
                       style: TextStyle(
-                        fontSize: 24,
+                        fontSize: 20,
                         fontWeight: FontWeight.bold,
                         color: Colors.grey[800],
                         fontFamily: GoogleFonts.inter().fontFamily,
                       ),
                     ),
-                    const SizedBox(height: 16),
-                    Column(
-                      children: [
-                        _buildExpandableSection(
-                          'Valid Items',
-                          itemCounts['valid'],
-                          Colors.green,
-                          Icons.check_circle,
-                          validItems,
-                          'valid',
-                        ),
-                        _buildExpandableSection(
-                          'About to Expire',
-                          itemCounts['aboutToExpire'],
-                          Colors.orange,
-                          Icons.warning,
-                          aboutToExpireItems,
-                          'aboutToExpire',
-                        ),
-                        _buildExpandableSection(
-                          'Expired Items',
-                          itemCounts['expired'],
-                          Colors.red,
-                          Icons.error,
-                          expiredItems,
-                          'expired',
-                        ),
-                      ],
-                    ),
-                    const SizedBox(height: 24),
-                    Container(
-                      padding: const EdgeInsets.all(20),
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(16),
-                        boxShadow: [
-                          BoxShadow(
-                            color: Colors.black.withOpacity(0.05),
-                            blurRadius: 10,
-                            offset: const Offset(0, 4),
-                          ),
-                        ],
-                      ),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            'Statistics',
-                            style: TextStyle(
-                              fontSize: 20,
-                              fontWeight: FontWeight.bold,
-                              color: Colors.grey[800],
-                              fontFamily: GoogleFonts.inter().fontFamily,
-                            ),
-                          ),
-                          const SizedBox(height: 20),
-                          SizedBox(
-                            height: 300,
-                            child: AnimatedSwitcher(
-                              duration: const Duration(milliseconds: 500),
-                              child: showBarChart
-                                  ? _buildModernBarChart()
-                                  : _buildModernPieChart(),
-                            ),
-                          ),
-                        ],
+                    const SizedBox(height: 20),
+                    SizedBox(
+                      height: 300,
+                      child: AnimatedSwitcher(
+                        duration: const Duration(milliseconds: 500),
+                        child: showBarChart
+                            ? _buildModernBarChart()
+                            : _buildModernPieChart(),
                       ),
                     ),
                   ],
                 ),
               ),
-            ),
+            ],
+          ),
+        ),
+      ),
     );
   }
 }

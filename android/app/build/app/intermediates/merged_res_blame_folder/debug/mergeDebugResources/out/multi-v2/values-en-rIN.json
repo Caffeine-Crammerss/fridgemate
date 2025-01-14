@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.fridgemate.app-mergeDebugResources-36:/values-en-rIN/values-en-rIN.xml",
+            "outputFile": "com.example.fridgemate.app-mergeDebugResources-39:/values-en-rIN/values-en-rIN.xml",
             "map": [
                 {
                     "source": "C:\\Users\\basel\\.gradle\\caches\\8.10.2\\transforms\\59ea09034e8ab736f6046d4aad2fadb5\\transformed\\jetified-credentials-1.2.0-rc01\\res\\values-en-rIN\\values-en-rIN.xml",

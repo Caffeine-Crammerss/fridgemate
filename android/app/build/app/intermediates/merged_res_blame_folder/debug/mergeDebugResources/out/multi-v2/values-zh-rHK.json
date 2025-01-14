@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.fridgemate.app-mergeDebugResources-36:/values-zh-rHK/values-zh-rHK.xml",
+            "outputFile": "com.example.fridgemate.app-mergeDebugResources-39:/values-zh-rHK/values-zh-rHK.xml",
             "map": [
                 {
                     "source": "C:\\Users\\basel\\.gradle\\caches\\8.10.2\\transforms\\463dd5f55b5f85e21f758a3dd3b873bc\\transformed\\browser-1.4.0\\res\\values-zh-rHK\\values-zh-rHK.xml",
