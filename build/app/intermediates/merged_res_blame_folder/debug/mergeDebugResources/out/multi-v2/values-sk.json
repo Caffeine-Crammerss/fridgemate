@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.fridgemate.app-mergeDebugResources-5:/values-sk/values-sk.xml",
+            "outputFile": "com.example.fridgemate.app-mergeDebugResources-39:/values-sk/values-sk.xml",
             "map": [
                 {
                     "source": "C:\\Users\\basel\\.gradle\\caches\\8.10.2\\transforms\\65019e42cdebed1d7d0134c88230afb1\\transformed\\jetified-play-services-base-18.5.0\\res\\values-sk\\values.xml",

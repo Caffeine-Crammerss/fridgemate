@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.fridgemate.app-mergeDebugResources-5:/values/values.xml",
+            "outputFile": "com.example.fridgemate.app-mergeDebugResources-39:/values/values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\basel\\.gradle\\caches\\8.10.2\\transforms\\01362fc6d446dbe5485c4a44efcb82cc\\transformed\\core-1.13.1\\res\\values\\values.xml",
@@ -42,7 +42,26 @@
                     }
                 },
                 {
-                    "source": "C:\\GitHub\\fridgemate\\fridgemate\\build\\app\\generated\\res\\processDebugGoogleServices\\values\\values.xml",
+                    "source": "C:\\Users\\basel\\StudioProjects\\FridgeMate\\fridgemate\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "176,832",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "483,998"
+                    },
+                    "to": {
+                        "startLines": "201,205",
+                        "startColumns": "4,4",
+                        "startOffsets": "12606,12787",
+                        "endLines": "204,207",
+                        "endColumns": "12,12",
+                        "endOffsets": "12782,12951"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\basel\\StudioProjects\\FridgeMate\\fridgemate\\build\\app\\generated\\res\\processDebugGoogleServices\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -249,25 +268,6 @@
                         "startOffsets": "8272,10210",
                         "endColumns": "67,166",
                         "endOffsets": "8335,10372"
-                    }
-                },
-                {
-                    "source": "C:\\GitHub\\fridgemate\\fridgemate\\android\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "176,832",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "483,998"
-                    },
-                    "to": {
-                        "startLines": "201,205",
-                        "startColumns": "4,4",
-                        "startOffsets": "12606,12787",
-                        "endLines": "204,207",
-                        "endColumns": "12,12",
-                        "endOffsets": "12782,12951"
                     }
                 },
                 {

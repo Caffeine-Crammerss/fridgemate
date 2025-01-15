@@ -1,17 +1,17 @@
 -- Merging decision tree log ---
 application
-INJECTED from C:\GitHub\fridgemate\fridgemate\android\app\src\main\AndroidManifest.xml:2:5-33:19
-INJECTED from C:\GitHub\fridgemate\fridgemate\android\app\src\debug\AndroidManifest.xml
-MERGED from [:cloud_firestore] C:\GitHub\fridgemate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-13:19
-MERGED from [:cloud_firestore] C:\GitHub\fridgemate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_auth] C:\GitHub\fridgemate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_auth] C:\GitHub\fridgemate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_storage] C:\GitHub\fridgemate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_storage] C:\GitHub\fridgemate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_core] C:\GitHub\fridgemate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_core] C:\GitHub\fridgemate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-13:19
-MERGED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:5-32:19
-MERGED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:5-32:19
+INJECTED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:4:5-35:19
+INJECTED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\debug\AndroidManifest.xml
+MERGED from [:cloud_firestore] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_storage] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_storage] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-13:19
+MERGED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:5-32:19
+MERGED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:5-32:19
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:13:5-24:19
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:13:5-24:19
 MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:28:5-73:19
@@ -28,6 +28,10 @@ MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\basel\.
 MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\3a0494424d0bf4938142579b8d0c91b4\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:11:5-22:19
 MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\403c410a031664cda4b851947adc81a7\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\403c410a031664cda4b851947adc81a7\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
+MERGED from [androidx.camera:camera-core:1.3.4] C:\Users\basel\.gradle\caches\8.10.2\transforms\c86949c51c9bb24a70994330142abef2\transformed\jetified-camera-core-1.3.4\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.3.4] C:\Users\basel\.gradle\caches\8.10.2\transforms\c86949c51c9bb24a70994330142abef2\transformed\jetified-camera-core-1.3.4\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-camera2:1.3.4] C:\Users\basel\.gradle\caches\8.10.2\transforms\63f536d22228084dbd6a2163cec72835\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-camera2:1.3.4] C:\Users\basel\.gradle\caches\8.10.2\transforms\63f536d22228084dbd6a2163cec72835\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:23:5-34:19
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\42d792bfeb7369bb14c0e23ccd60985a\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\42d792bfeb7369bb14c0e23ccd60985a\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\2ffeafe70dd6441c50a80f2c5812be8e\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:22:5-39:19
@@ -44,6 +48,12 @@ MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\basel\.gradle\cac
 MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\1380455a65dcab6f119d52459d7b0cde\transformed\jetified-integrity-1.3.0\AndroidManifest.xml:5:5-6:19
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\520b6c1f63f89b89281ff01ac6e48a42\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\520b6c1f63f89b89281ff01ac6e48a42\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\5403dfbfb976e99b7013eb046f41b4bb\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\5403dfbfb976e99b7013eb046f41b4bb\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\d73ba26ca259dec0fffa7d8369fa09f1\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\d73ba26ca259dec0fffa7d8369fa09f1\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:common:18.9.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\315443ea7bdb4cc5a4362b45dc8d9923\transformed\jetified-common-18.9.0\AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.mlkit:common:18.9.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\315443ea7bdb4cc5a4362b45dc8d9923\transformed\jetified-common-18.9.0\AndroidManifest.xml:8:5-24:19
 MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\43dcafc135edbf0e7a92876365e519e4\transformed\jetified-play-services-measurement-impl-22.1.2\AndroidManifest.xml:29:5-30:19
 MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\43dcafc135edbf0e7a92876365e519e4\transformed\jetified-play-services-measurement-impl-22.1.2\AndroidManifest.xml:29:5-30:19
 MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\50516ee820de54666ef8f4b7698d359d\transformed\jetified-play-services-fido-20.1.0\AndroidManifest.xml:7:5-8:19
@@ -76,26 +86,34 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\basel\.gradle\cach
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\b3bacda9356ffa26bb1339e9a99323ab\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\557ce23a71b4a293ad6deb54b1662096\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\557ce23a71b4a293ad6deb54b1662096\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\4aa9ec924402cccf5f61d683de5bc762\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\4aa9ec924402cccf5f61d683de5bc762\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\basel\.gradle\caches\8.10.2\transforms\814d2eabfb718be48b89164fb951f454\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\basel\.gradle\caches\8.10.2\transforms\814d2eabfb718be48b89164fb951f454\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:25:5-39:19
 MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\8923fcffd8562f9b2eaf0ca15f24dd05\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:11:5-19:19
 MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\8923fcffd8562f9b2eaf0ca15f24dd05\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\basel\.gradle\caches\8.10.2\transforms\4885e34a3aabf60599fd1e3c859668bd\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\basel\.gradle\caches\8.10.2\transforms\4885e34a3aabf60599fd1e3c859668bd\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:7:5-20
 	android:extractNativeLibs
-		INJECTED from C:\GitHub\fridgemate\fridgemate\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\debug\AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\01362fc6d446dbe5485c4a44efcb82cc\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 	android:name
-		INJECTED from C:\GitHub\fridgemate\fridgemate\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml
 manifest
-ADDED from C:\GitHub\fridgemate\fridgemate\android\app\src\main\AndroidManifest.xml:1:1-45:12
-MERGED from C:\GitHub\fridgemate\fridgemate\android\app\src\main\AndroidManifest.xml:1:1-45:12
-INJECTED from C:\GitHub\fridgemate\fridgemate\android\app\src\debug\AndroidManifest.xml:1:1-7:12
-INJECTED from C:\GitHub\fridgemate\fridgemate\android\app\src\debug\AndroidManifest.xml:1:1-7:12
-INJECTED from C:\GitHub\fridgemate\fridgemate\android\app\src\debug\AndroidManifest.xml:1:1-7:12
-MERGED from [:cloud_firestore] C:\GitHub\fridgemate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-15:12
-MERGED from [:firebase_auth] C:\GitHub\fridgemate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-15:12
-MERGED from [:firebase_storage] C:\GitHub\fridgemate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-15:12
-MERGED from [:firebase_core] C:\GitHub\fridgemate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-15:12
-MERGED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-34:12
-MERGED from [:flutter_plugin_android_lifecycle] C:\GitHub\fridgemate\fridgemate\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
+ADDED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:1:1-47:12
+MERGED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:1:1-47:12
+INJECTED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+MERGED from [:cloud_firestore] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_auth] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_storage] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-15:12
+MERGED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-34:12
+MERGED from [:flutter_plugin_android_lifecycle] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:mobile_scanner] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\mobile_scanner\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-13:12
+MERGED from [:path_provider_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\path_provider_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:17:1-75:12
 MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\f5c59980b505e74e691614ec3e42c3a9\transformed\jetified-firebase-storage-21.0.1\AndroidManifest.xml:15:1-39:12
@@ -104,8 +122,12 @@ MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Use
 MERGED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\84de9f8a9ea96b1bfe08a67151c98fe8\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:15:1-34:12
 MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\3a0494424d0bf4938142579b8d0c91b4\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:2:1-24:12
 MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\403c410a031664cda4b851947adc81a7\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:2:1-18:12
+MERGED from [androidx.camera:camera-core:1.3.4] C:\Users\basel\.gradle\caches\8.10.2\transforms\c86949c51c9bb24a70994330142abef2\transformed\jetified-camera-core-1.3.4\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-camera2:1.3.4] C:\Users\basel\.gradle\caches\8.10.2\transforms\63f536d22228084dbd6a2163cec72835\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-lifecycle:1.3.4] C:\Users\basel\.gradle\caches\8.10.2\transforms\269daaabbcc4dcfdfcb5410b639b7eb5\transformed\jetified-camera-lifecycle-1.3.4\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\42d792bfeb7369bb14c0e23ccd60985a\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\2ffeafe70dd6441c50a80f2c5812be8e\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.mlkit:barcode-scanning:17.2.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\a3932a0ebcab5429d560bdbf5b4cc066\transformed\jetified-barcode-scanning-17.2.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\b068b2419a17c2ba6e53ccecd9b49121\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:17:1-46:12
 MERGED from [com.google.android.gms:play-services-measurement-sdk:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\9b106a153b808fb96a7780ecea1a660e\transformed\jetified-play-services-measurement-sdk-22.1.2\AndroidManifest.xml:17:1-25:12
 MERGED from [androidx.credentials:credentials:1.2.0-rc01] C:\Users\basel\.gradle\caches\8.10.2\transforms\59ea09034e8ab736f6046d4aad2fadb5\transformed\jetified-credentials-1.2.0-rc01\AndroidManifest.xml:2:1-7:12
@@ -115,6 +137,10 @@ MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\User
 MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\3ae0640ad1e6c4c9c4f39c35dd758878\transformed\jetified-recaptcha-18.5.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\1380455a65dcab6f119d52459d7b0cde\transformed\jetified-integrity-1.3.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\520b6c1f63f89b89281ff01ac6e48a42\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\5403dfbfb976e99b7013eb046f41b4bb\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\2c1f16f0ac8552334e696ebe19fc29a4\transformed\jetified-barcode-scanning-common-17.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\d73ba26ca259dec0fffa7d8369fa09f1\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:common:18.9.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\315443ea7bdb4cc5a4362b45dc8d9923\transformed\jetified-common-18.9.0\AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\43dcafc135edbf0e7a92876365e519e4\transformed\jetified-play-services-measurement-impl-22.1.2\AndroidManifest.xml:17:1-32:12
 MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\50516ee820de54666ef8f4b7698d359d\transformed\jetified-play-services-fido-20.1.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\afae7aa628f775466136541188cc0567\transformed\jetified-play-services-stats-17.0.2\AndroidManifest.xml:2:1-9:12
@@ -127,6 +153,7 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\basel\.gradl
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\10d4593e4050df643ce1d8a0d6681da9\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.window:window-java:1.2.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\5062ca24ec16da56a209f0c5ed983004\transformed\jetified-window-java-1.2.0\AndroidManifest.xml:17:1-21:12
 MERGED from [androidx.window:window:1.2.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\95fc30dfb87ca287ebd592be55990773\transformed\jetified-window-1.2.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.mlkit:vision-interfaces:16.2.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\6d636a96f7e597dcc7e565cd3e1d4fb9\transformed\jetified-vision-interfaces-16.2.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\bd01570ab6694a90504ab910a23a5910\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\basel\.gradle\caches\8.10.2\transforms\53d347e16152861b14c0fa0da0074a56\transformed\jetified-play-services-auth-base-18.0.4\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\65019e42cdebed1d7d0134c88230afb1\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:2:1-7:12
@@ -159,6 +186,10 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\97f49555ba2ce9102ad0d428641a7d48\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\557ce23a71b4a293ad6deb54b1662096\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\ddd401525d708594c2f592a6939be3b6\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\4aa9ec924402cccf5f61d683de5bc762\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\basel\.gradle\caches\8.10.2\transforms\814d2eabfb718be48b89164fb951f454\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\6a22f980ae17455b4bdcdf08694c8c24\transformed\jetified-transport-api-2.2.1\AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\585d2f954e65e55c3edcfedbdc1063d3\transformed\jetified-firebase-encoders-json-17.1.0\AndroidManifest.xml:15:1-23:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\2de7fa6e19bf494e3027b70d6ff110b8\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\9f3185a8f12ef7f8c23b9e2c5bef0b26\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.window.extensions.core:core:1.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\dc3737b7b0a056903098bdec86eab0eb\transformed\jetified-core-1.0.0\AndroidManifest.xml:2:1-7:12
@@ -166,28 +197,35 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\basel\.
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\751467783e576b5309331f016fd6c429\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\d2eb9f62624d2e6436c7df5838fe3946\transformed\jetified-grpc-android-1.62.2\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\8923fcffd8562f9b2eaf0ca15f24dd05\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\basel\.gradle\caches\8.10.2\transforms\4885e34a3aabf60599fd1e3c859668bd\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:2:1-9:12
 	package
-		INJECTED from C:\GitHub\fridgemate\fridgemate\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\debug\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\GitHub\fridgemate\fridgemate\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\debug\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\GitHub\fridgemate\fridgemate\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\GitHub\fridgemate\fridgemate\android\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:2:5-64
+MERGED from [:mobile_scanner] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\mobile_scanner\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-65
+MERGED from [:mobile_scanner] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\mobile_scanner\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-65
+	android:name
+		ADDED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:2:22-62
 queries
-ADDED from C:\GitHub\fridgemate\fridgemate\android\app\src\main\AndroidManifest.xml:39:5-44:15
+ADDED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:41:5-46:15
 intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
-ADDED from C:\GitHub\fridgemate\fridgemate\android\app\src\main\AndroidManifest.xml:40:9-43:18
+ADDED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:42:9-45:18
 action#android.intent.action.PROCESS_TEXT
-ADDED from C:\GitHub\fridgemate\fridgemate\android\app\src\main\AndroidManifest.xml:41:13-72
+ADDED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:43:13-72
 	android:name
-		ADDED from C:\GitHub\fridgemate\fridgemate\android\app\src\main\AndroidManifest.xml:41:21-70
+		ADDED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:43:21-70
 data
-ADDED from C:\GitHub\fridgemate\fridgemate\android\app\src\main\AndroidManifest.xml:42:13-50
+ADDED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:44:13-50
 	android:mimeType
-		ADDED from C:\GitHub\fridgemate\fridgemate\android\app\src\main\AndroidManifest.xml:42:19-48
+		ADDED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:44:19-48
 uses-permission#android.permission.INTERNET
-ADDED from C:\GitHub\fridgemate\fridgemate\android\app\src\debug\AndroidManifest.xml:6:5-66
+ADDED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\debug\AndroidManifest.xml:6:5-66
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:25:5-67
@@ -206,24 +244,30 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\43dcafc135edbf0e7a92876365e519e4\transformed\jetified-play-services-measurement-impl-22.1.2\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\20776d0a6108e5ed5b6422a19a0d77c5\transformed\jetified-play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\20776d0a6108e5ed5b6422a19a0d77c5\transformed\jetified-play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\4aa9ec924402cccf5f61d683de5bc762\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\4aa9ec924402cccf5f61d683de5bc762\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
 	android:name
-		ADDED from C:\GitHub\fridgemate\fridgemate\android\app\src\debug\AndroidManifest.xml:6:22-64
+		ADDED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\debug\AndroidManifest.xml:6:22-64
 uses-sdk
-INJECTED from C:\GitHub\fridgemate\fridgemate\android\app\src\debug\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\GitHub\fridgemate\fridgemate\android\app\src\debug\AndroidManifest.xml
-INJECTED from C:\GitHub\fridgemate\fridgemate\android\app\src\debug\AndroidManifest.xml
-MERGED from [:cloud_firestore] C:\GitHub\fridgemate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
-MERGED from [:cloud_firestore] C:\GitHub\fridgemate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_auth] C:\GitHub\fridgemate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_auth] C:\GitHub\fridgemate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_storage] C:\GitHub\fridgemate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_storage] C:\GitHub\fridgemate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] C:\GitHub\fridgemate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] C:\GitHub\fridgemate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
-MERGED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:6:5-44
-MERGED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:6:5-44
-MERGED from [:flutter_plugin_android_lifecycle] C:\GitHub\fridgemate\fridgemate\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
-MERGED from [:flutter_plugin_android_lifecycle] C:\GitHub\fridgemate\fridgemate\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+INJECTED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\debug\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\debug\AndroidManifest.xml
+MERGED from [:cloud_firestore] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:6:5-44
+MERGED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:6:5-44
+MERGED from [:flutter_plugin_android_lifecycle] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:mobile_scanner] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\mobile_scanner\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:mobile_scanner] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\mobile_scanner\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\path_provider_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\path_provider_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:6:5-44
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:6:5-44
 MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:21:5-23:151
@@ -240,10 +284,18 @@ MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\basel\.
 MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\3a0494424d0bf4938142579b8d0c91b4\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\403c410a031664cda4b851947adc81a7\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\403c410a031664cda4b851947adc81a7\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-core:1.3.4] C:\Users\basel\.gradle\caches\8.10.2\transforms\c86949c51c9bb24a70994330142abef2\transformed\jetified-camera-core-1.3.4\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.3.4] C:\Users\basel\.gradle\caches\8.10.2\transforms\c86949c51c9bb24a70994330142abef2\transformed\jetified-camera-core-1.3.4\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-camera2:1.3.4] C:\Users\basel\.gradle\caches\8.10.2\transforms\63f536d22228084dbd6a2163cec72835\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-camera2:1.3.4] C:\Users\basel\.gradle\caches\8.10.2\transforms\63f536d22228084dbd6a2163cec72835\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.3.4] C:\Users\basel\.gradle\caches\8.10.2\transforms\269daaabbcc4dcfdfcb5410b639b7eb5\transformed\jetified-camera-lifecycle-1.3.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.3.4] C:\Users\basel\.gradle\caches\8.10.2\transforms\269daaabbcc4dcfdfcb5410b639b7eb5\transformed\jetified-camera-lifecycle-1.3.4\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\42d792bfeb7369bb14c0e23ccd60985a\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\42d792bfeb7369bb14c0e23ccd60985a\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\2ffeafe70dd6441c50a80f2c5812be8e\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:19:5-44
 MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\2ffeafe70dd6441c50a80f2c5812be8e\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:19:5-44
+MERGED from [com.google.mlkit:barcode-scanning:17.2.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\a3932a0ebcab5429d560bdbf5b4cc066\transformed\jetified-barcode-scanning-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:barcode-scanning:17.2.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\a3932a0ebcab5429d560bdbf5b4cc066\transformed\jetified-barcode-scanning-17.2.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\b068b2419a17c2ba6e53ccecd9b49121\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\b068b2419a17c2ba6e53ccecd9b49121\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-sdk:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\9b106a153b808fb96a7780ecea1a660e\transformed\jetified-play-services-measurement-sdk-22.1.2\AndroidManifest.xml:20:5-44
@@ -262,6 +314,14 @@ MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\basel\.gradle\cac
 MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\1380455a65dcab6f119d52459d7b0cde\transformed\jetified-integrity-1.3.0\AndroidManifest.xml:4:5-44
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\520b6c1f63f89b89281ff01ac6e48a42\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\520b6c1f63f89b89281ff01ac6e48a42\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\5403dfbfb976e99b7013eb046f41b4bb\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\5403dfbfb976e99b7013eb046f41b4bb\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\2c1f16f0ac8552334e696ebe19fc29a4\transformed\jetified-barcode-scanning-common-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\2c1f16f0ac8552334e696ebe19fc29a4\transformed\jetified-barcode-scanning-common-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\d73ba26ca259dec0fffa7d8369fa09f1\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\d73ba26ca259dec0fffa7d8369fa09f1\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.9.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\315443ea7bdb4cc5a4362b45dc8d9923\transformed\jetified-common-18.9.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.9.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\315443ea7bdb4cc5a4362b45dc8d9923\transformed\jetified-common-18.9.0\AndroidManifest.xml:6:5-44
 MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\43dcafc135edbf0e7a92876365e519e4\transformed\jetified-play-services-measurement-impl-22.1.2\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\43dcafc135edbf0e7a92876365e519e4\transformed\jetified-play-services-measurement-impl-22.1.2\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\50516ee820de54666ef8f4b7698d359d\transformed\jetified-play-services-fido-20.1.0\AndroidManifest.xml:5:5-44
@@ -286,6 +346,8 @@ MERGED from [androidx.window:window-java:1.2.0] C:\Users\basel\.gradle\caches\8.
 MERGED from [androidx.window:window-java:1.2.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\5062ca24ec16da56a209f0c5ed983004\transformed\jetified-window-java-1.2.0\AndroidManifest.xml:19:5-44
 MERGED from [androidx.window:window:1.2.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\95fc30dfb87ca287ebd592be55990773\transformed\jetified-window-1.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.window:window:1.2.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\95fc30dfb87ca287ebd592be55990773\transformed\jetified-window-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.mlkit:vision-interfaces:16.2.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\6d636a96f7e597dcc7e565cd3e1d4fb9\transformed\jetified-vision-interfaces-16.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-interfaces:16.2.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\6d636a96f7e597dcc7e565cd3e1d4fb9\transformed\jetified-vision-interfaces-16.2.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\bd01570ab6694a90504ab910a23a5910\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\bd01570ab6694a90504ab910a23a5910\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\basel\.gradle\caches\8.10.2\transforms\53d347e16152861b14c0fa0da0074a56\transformed\jetified-play-services-auth-base-18.0.4\AndroidManifest.xml:5:5-44
@@ -350,6 +412,14 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ba
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\557ce23a71b4a293ad6deb54b1662096\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\ddd401525d708594c2f592a6939be3b6\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\ddd401525d708594c2f592a6939be3b6\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\4aa9ec924402cccf5f61d683de5bc762\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\4aa9ec924402cccf5f61d683de5bc762\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\basel\.gradle\caches\8.10.2\transforms\814d2eabfb718be48b89164fb951f454\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\basel\.gradle\caches\8.10.2\transforms\814d2eabfb718be48b89164fb951f454\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\6a22f980ae17455b4bdcdf08694c8c24\transformed\jetified-transport-api-2.2.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\6a22f980ae17455b4bdcdf08694c8c24\transformed\jetified-transport-api-2.2.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\585d2f954e65e55c3edcfedbdc1063d3\transformed\jetified-firebase-encoders-json-17.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\585d2f954e65e55c3edcfedbdc1063d3\transformed\jetified-firebase-encoders-json-17.1.0\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\2de7fa6e19bf494e3027b70d6ff110b8\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\2de7fa6e19bf494e3027b70d6ff110b8\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\9f3185a8f12ef7f8c23b9e2c5bef0b26\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
@@ -364,20 +434,22 @@ MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\basel\.gradle\caches\8.10.2\t
 MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\d2eb9f62624d2e6436c7df5838fe3946\transformed\jetified-grpc-android-1.62.2\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\8923fcffd8562f9b2eaf0ca15f24dd05\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\8923fcffd8562f9b2eaf0ca15f24dd05\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\basel\.gradle\caches\8.10.2\transforms\4885e34a3aabf60599fd1e3c859668bd\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\basel\.gradle\caches\8.10.2\transforms\4885e34a3aabf60599fd1e3c859668bd\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:5:5-44
 	tools:overrideLibrary
 		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:23:9-148
 	android:targetSdkVersion
-		INJECTED from C:\GitHub\fridgemate\fridgemate\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\debug\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\GitHub\fridgemate\fridgemate\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\debug\AndroidManifest.xml
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:cloud_firestore] C:\GitHub\fridgemate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_auth] C:\GitHub\fridgemate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_auth] C:\GitHub\fridgemate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_storage] C:\GitHub\fridgemate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_storage] C:\GitHub\fridgemate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_core] C:\GitHub\fridgemate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_core] C:\GitHub\fridgemate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-12:19
+ADDED from [:cloud_firestore] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_auth] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_auth] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_storage] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_storage] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-12:19
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:14:9-23:19
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:14:9-23:19
 MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:66:9-72:19
@@ -401,69 +473,75 @@ MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\basel\.gradle\
 	android:directBootAware
 		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\2ffeafe70dd6441c50a80f2c5812be8e\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:32:13-43
 	android:name
-		ADDED from [:cloud_firestore] C:\GitHub\fridgemate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:18-89
+		ADDED from [:cloud_firestore] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:18-89
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
-ADDED from [:cloud_firestore] C:\GitHub\fridgemate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-11:85
+ADDED from [:cloud_firestore] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:cloud_firestore] C:\GitHub\fridgemate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:17-82
+		ADDED from [:cloud_firestore] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:cloud_firestore] C:\GitHub\fridgemate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:17-134
+		ADDED from [:cloud_firestore] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:17-134
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
-ADDED from [:firebase_auth] C:\GitHub\fridgemate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-11:85
+ADDED from [:firebase_auth] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:firebase_auth] C:\GitHub\fridgemate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:17-82
+		ADDED from [:firebase_auth] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:firebase_auth] C:\GitHub\fridgemate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:17-124
+		ADDED from [:firebase_auth] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:17-124
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar
-ADDED from [:firebase_storage] C:\GitHub\fridgemate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-11:85
+ADDED from [:firebase_storage] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:firebase_storage] C:\GitHub\fridgemate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:17-82
+		ADDED from [:firebase_storage] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:firebase_storage] C:\GitHub\fridgemate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:17-126
+		ADDED from [:firebase_storage] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:17-126
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
-ADDED from [:firebase_core] C:\GitHub\fridgemate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-11:85
+ADDED from [:firebase_core] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:firebase_core] C:\GitHub\fridgemate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:17-82
+		ADDED from [:firebase_core] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:firebase_core] C:\GitHub\fridgemate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:17-124
+		ADDED from [:firebase_core] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:17-124
 provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
-ADDED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:9-17:20
+ADDED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:9-17:20
 	android:grantUriPermissions
-		ADDED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:13:13-47
+		ADDED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:13:13-47
 	android:authorities
-		ADDED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:13-74
+		ADDED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:13-74
 	android:exported
-		ADDED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:12:13-37
+		ADDED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:12:13-37
 	android:name
-		ADDED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:13-82
+		ADDED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:13-82
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:14:13-16:75
+ADDED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:14:13-16:75
 	android:resource
-		ADDED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:16:17-72
+		ADDED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:16:17-72
 	android:name
-		ADDED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:15:17-67
+		ADDED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:15:17-67
 service#com.google.android.gms.metadata.ModuleDependencies
-ADDED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:19:9-31:19
+ADDED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:19:9-31:19
 	android:enabled
-		ADDED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:21:13-36
+		ADDED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:21:13-36
 	android:exported
-		ADDED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:22:13-37
+		ADDED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:22:13-37
 	tools:ignore
-		ADDED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:23:13-40
+		ADDED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:23:13-40
 	android:name
-		ADDED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:20:13-78
+		ADDED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:20:13-78
 intent-filter#action:name:com.google.android.gms.metadata.MODULE_DEPENDENCIES
-ADDED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:24:13-26:29
+ADDED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:24:13-26:29
 action#com.google.android.gms.metadata.MODULE_DEPENDENCIES
-ADDED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:25:17-94
+ADDED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:25:17-94
 	android:name
-		ADDED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:25:25-91
+		ADDED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:25:25-91
 meta-data#photopicker_activity:0:required
-ADDED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:28:13-30:36
+ADDED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:28:13-30:36
 	android:value
-		ADDED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:30:17-33
+		ADDED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:30:17-33
 	android:name
-		ADDED from [:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:29:17-63
+		ADDED from [:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:29:17-63
+uses-feature#android.hardware.camera
+ADDED from [:mobile_scanner] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\mobile_scanner\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:5-11:36
+	android:required
+		ADDED from [:mobile_scanner] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\mobile_scanner\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:9-33
+	android:name
+		ADDED from [:mobile_scanner] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\mobile_scanner\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:9-47
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:10:5-79
 MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:26:5-79
@@ -482,6 +560,10 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\43dcafc135edbf0e7a92876365e519e4\transformed\jetified-play-services-measurement-impl-22.1.2\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\20776d0a6108e5ed5b6422a19a0d77c5\transformed\jetified-play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\20776d0a6108e5ed5b6422a19a0d77c5\transformed\jetified-play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\4aa9ec924402cccf5f61d683de5bc762\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\4aa9ec924402cccf5f61d683de5bc762\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\basel\.gradle\caches\8.10.2\transforms\814d2eabfb718be48b89164fb951f454\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\basel\.gradle\caches\8.10.2\transforms\814d2eabfb718be48b89164fb951f454\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:22:5-79
 MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\d2eb9f62624d2e6436c7df5838fe3946\transformed\jetified-grpc-android-1.62.2\AndroidManifest.xml:7:5-79
 MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\d2eb9f62624d2e6436c7df5838fe3946\transformed\jetified-grpc-android-1.62.2\AndroidManifest.xml:7:5-79
 	android:name
@@ -630,6 +712,24 @@ ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\basel\.grad
 		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\403c410a031664cda4b851947adc81a7\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\403c410a031664cda4b851947adc81a7\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+service#androidx.camera.core.impl.MetadataHolderService
+ADDED from [androidx.camera:camera-core:1.3.4] C:\Users\basel\.gradle\caches\8.10.2\transforms\c86949c51c9bb24a70994330142abef2\transformed\jetified-camera-core-1.3.4\AndroidManifest.xml:29:9-33:78
+MERGED from [androidx.camera:camera-camera2:1.3.4] C:\Users\basel\.gradle\caches\8.10.2\transforms\63f536d22228084dbd6a2163cec72835\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:24:9-33:19
+MERGED from [androidx.camera:camera-camera2:1.3.4] C:\Users\basel\.gradle\caches\8.10.2\transforms\63f536d22228084dbd6a2163cec72835\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:24:9-33:19
+	android:enabled
+		ADDED from [androidx.camera:camera-core:1.3.4] C:\Users\basel\.gradle\caches\8.10.2\transforms\c86949c51c9bb24a70994330142abef2\transformed\jetified-camera-core-1.3.4\AndroidManifest.xml:31:13-36
+	android:exported
+		ADDED from [androidx.camera:camera-core:1.3.4] C:\Users\basel\.gradle\caches\8.10.2\transforms\c86949c51c9bb24a70994330142abef2\transformed\jetified-camera-core-1.3.4\AndroidManifest.xml:32:13-37
+	tools:ignore
+		ADDED from [androidx.camera:camera-core:1.3.4] C:\Users\basel\.gradle\caches\8.10.2\transforms\c86949c51c9bb24a70994330142abef2\transformed\jetified-camera-core-1.3.4\AndroidManifest.xml:33:13-75
+	android:name
+		ADDED from [androidx.camera:camera-core:1.3.4] C:\Users\basel\.gradle\caches\8.10.2\transforms\c86949c51c9bb24a70994330142abef2\transformed\jetified-camera-core-1.3.4\AndroidManifest.xml:30:13-75
+meta-data#androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER
+ADDED from [androidx.camera:camera-camera2:1.3.4] C:\Users\basel\.gradle\caches\8.10.2\transforms\63f536d22228084dbd6a2163cec72835\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:30:13-32:89
+	android:value
+		ADDED from [androidx.camera:camera-camera2:1.3.4] C:\Users\basel\.gradle\caches\8.10.2\transforms\63f536d22228084dbd6a2163cec72835\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:32:17-86
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.3.4] C:\Users\basel\.gradle\caches\8.10.2\transforms\63f536d22228084dbd6a2163cec72835\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:31:17-103
 provider#com.google.firebase.provider.FirebaseInitProvider
 ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\2ffeafe70dd6441c50a80f2c5812be8e\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
 	android:authorities
@@ -734,6 +834,48 @@ uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
 ADDED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\3ae0640ad1e6c4c9c4f39c35dd758878\transformed\jetified-recaptcha-18.5.1\AndroidManifest.xml:9:5-98
 	android:name
 		ADDED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\3ae0640ad1e6c4c9c4f39c35dd758878\transformed\jetified-recaptcha-18.5.1\AndroidManifest.xml:9:22-95
+service#com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\5403dfbfb976e99b7013eb046f41b4bb\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\d73ba26ca259dec0fffa7d8369fa09f1\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\d73ba26ca259dec0fffa7d8369fa09f1\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:common:18.9.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\315443ea7bdb4cc5a4362b45dc8d9923\transformed\jetified-common-18.9.0\AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.mlkit:common:18.9.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\315443ea7bdb4cc5a4362b45dc8d9923\transformed\jetified-common-18.9.0\AndroidManifest.xml:15:9-23:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\5403dfbfb976e99b7013eb046f41b4bb\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:11:13-37
+	tools:targetApi
+		ADDED from [com.google.mlkit:common:18.9.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\315443ea7bdb4cc5a4362b45dc8d9923\transformed\jetified-common-18.9.0\AndroidManifest.xml:19:13-32
+	android:directBootAware
+		ADDED from [com.google.mlkit:common:18.9.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\315443ea7bdb4cc5a4362b45dc8d9923\transformed\jetified-common-18.9.0\AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\5403dfbfb976e99b7013eb046f41b4bb\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:10:13-91
+meta-data#com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\5403dfbfb976e99b7013eb046f41b4bb\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\5403dfbfb976e99b7013eb046f41b4bb\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\5403dfbfb976e99b7013eb046f41b4bb\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:13:17-120
+meta-data#com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar
+ADDED from [com.google.mlkit:vision-common:17.3.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\d73ba26ca259dec0fffa7d8369fa09f1\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.mlkit:vision-common:17.3.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\d73ba26ca259dec0fffa7d8369fa09f1\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-common:17.3.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\d73ba26ca259dec0fffa7d8369fa09f1\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:13:17-124
+provider#com.google.mlkit.common.internal.MlKitInitProvider
+ADDED from [com.google.mlkit:common:18.9.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\315443ea7bdb4cc5a4362b45dc8d9923\transformed\jetified-common-18.9.0\AndroidManifest.xml:9:9-13:38
+	android:authorities
+		ADDED from [com.google.mlkit:common:18.9.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\315443ea7bdb4cc5a4362b45dc8d9923\transformed\jetified-common-18.9.0\AndroidManifest.xml:11:13-69
+	android:exported
+		ADDED from [com.google.mlkit:common:18.9.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\315443ea7bdb4cc5a4362b45dc8d9923\transformed\jetified-common-18.9.0\AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.mlkit:common:18.9.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\315443ea7bdb4cc5a4362b45dc8d9923\transformed\jetified-common-18.9.0\AndroidManifest.xml:13:13-35
+	android:name
+		ADDED from [com.google.mlkit:common:18.9.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\315443ea7bdb4cc5a4362b45dc8d9923\transformed\jetified-common-18.9.0\AndroidManifest.xml:10:13-78
+meta-data#com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar
+ADDED from [com.google.mlkit:common:18.9.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\315443ea7bdb4cc5a4362b45dc8d9923\transformed\jetified-common-18.9.0\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.mlkit:common:18.9.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\315443ea7bdb4cc5a4362b45dc8d9923\transformed\jetified-common-18.9.0\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.mlkit:common:18.9.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\315443ea7bdb4cc5a4362b45dc8d9923\transformed\jetified-common-18.9.0\AndroidManifest.xml:21:17-120
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.2.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\95fc30dfb87ca287ebd592be55990773\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
 	android:required
@@ -848,6 +990,34 @@ action#androidx.profileinstaller.action.BENCHMARK_OPERATION
 ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
 	android:name
 		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\4aa9ec924402cccf5f61d683de5bc762\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\basel\.gradle\caches\8.10.2\transforms\814d2eabfb718be48b89164fb951f454\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\basel\.gradle\caches\8.10.2\transforms\814d2eabfb718be48b89164fb951f454\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\4aa9ec924402cccf5f61d683de5bc762\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\4aa9ec924402cccf5f61d683de5bc762\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\4aa9ec924402cccf5f61d683de5bc762\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\4aa9ec924402cccf5f61d683de5bc762\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\4aa9ec924402cccf5f61d683de5bc762\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\basel\.gradle\caches\8.10.2\transforms\814d2eabfb718be48b89164fb951f454\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\basel\.gradle\caches\8.10.2\transforms\814d2eabfb718be48b89164fb951f454\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\basel\.gradle\caches\8.10.2\transforms\814d2eabfb718be48b89164fb951f454\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\basel\.gradle\caches\8.10.2\transforms\814d2eabfb718be48b89164fb951f454\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\basel\.gradle\caches\8.10.2\transforms\814d2eabfb718be48b89164fb951f454\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\basel\.gradle\caches\8.10.2\transforms\814d2eabfb718be48b89164fb951f454\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\basel\.gradle\caches\8.10.2\transforms\814d2eabfb718be48b89164fb951f454\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
 activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
 ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\8923fcffd8562f9b2eaf0ca15f24dd05\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:14:9-18:65
 	android:stateNotNeeded

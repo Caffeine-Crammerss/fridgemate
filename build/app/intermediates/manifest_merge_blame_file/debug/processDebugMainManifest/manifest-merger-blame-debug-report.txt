@@ -13,524 +13,621 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->C:\GitHub\fridgemate\fridgemate\android\app\src\debug\AndroidManifest.xml:6:5-66
-15-->C:\GitHub\fridgemate\fridgemate\android\app\src\debug\AndroidManifest.xml:6:22-64
-16    <!--
-17     Required to query activities that can process text, see:
-18         https://developer.android.com/training/package-visibility and
-19         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
-20
-21         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
-22    -->
-23    <queries>
-23-->C:\GitHub\fridgemate\fridgemate\android\app\src\main\AndroidManifest.xml:39:5-44:15
-24        <intent>
-24-->C:\GitHub\fridgemate\fridgemate\android\app\src\main\AndroidManifest.xml:40:9-43:18
-25            <action android:name="android.intent.action.PROCESS_TEXT" />
-25-->C:\GitHub\fridgemate\fridgemate\android\app\src\main\AndroidManifest.xml:41:13-72
-25-->C:\GitHub\fridgemate\fridgemate\android\app\src\main\AndroidManifest.xml:41:21-70
-26
-27            <data android:mimeType="text/plain" />
-27-->C:\GitHub\fridgemate\fridgemate\android\app\src\main\AndroidManifest.xml:42:13-50
-27-->C:\GitHub\fridgemate\fridgemate\android\app\src\main\AndroidManifest.xml:42:19-48
-28        </intent>
-29    </queries> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
-30    <!-- <uses-sdk android:minSdkVersion="21" /> -->
-31    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-31-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:10:5-79
-31-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:10:22-76
-32    <uses-permission android:name="android.permission.WAKE_LOCK" />
-32-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\a15eeea04ed4f7200aebae8aa86d5681\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:24:5-68
-32-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\a15eeea04ed4f7200aebae8aa86d5681\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:24:22-65
-33    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-33-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\a15eeea04ed4f7200aebae8aa86d5681\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:25:5-79
-33-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\a15eeea04ed4f7200aebae8aa86d5681\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:25:22-76
-34    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
-34-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\a15eeea04ed4f7200aebae8aa86d5681\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:26:5-88
-34-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\a15eeea04ed4f7200aebae8aa86d5681\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:26:22-85
-35    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
-35-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\a15eeea04ed4f7200aebae8aa86d5681\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:27:5-82
-35-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\a15eeea04ed4f7200aebae8aa86d5681\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:27:22-79
-36    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-36-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\b068b2419a17c2ba6e53ccecd9b49121\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:26:5-110
-36-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\b068b2419a17c2ba6e53ccecd9b49121\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:26:22-107
-37    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
-37-->[com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\3ae0640ad1e6c4c9c4f39c35dd758878\transformed\jetified-recaptcha-18.5.1\AndroidManifest.xml:9:5-98
-37-->[com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\3ae0640ad1e6c4c9c4f39c35dd758878\transformed\jetified-recaptcha-18.5.1\AndroidManifest.xml:9:22-95
-38
-39    <permission
-39-->[androidx.core:core:1.13.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\01362fc6d446dbe5485c4a44efcb82cc\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
-40        android:name="com.example.fridgemate.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-40-->[androidx.core:core:1.13.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\01362fc6d446dbe5485c4a44efcb82cc\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
-41        android:protectionLevel="signature" />
-41-->[androidx.core:core:1.13.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\01362fc6d446dbe5485c4a44efcb82cc\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
-42
-43    <uses-permission android:name="com.example.fridgemate.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-43-->[androidx.core:core:1.13.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\01362fc6d446dbe5485c4a44efcb82cc\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
-43-->[androidx.core:core:1.13.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\01362fc6d446dbe5485c4a44efcb82cc\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
-44
-45    <application
-46        android:name="android.app.Application"
-47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-47-->[androidx.core:core:1.13.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\01362fc6d446dbe5485c4a44efcb82cc\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
-48        android:debuggable="true"
-49        android:extractNativeLibs="false"
-50        android:icon="@mipmap/ic_launcher"
-51        android:label="fridgemate" >
-52        <activity
-53            android:name="com.example.fridgemate.MainActivity"
-54            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-55            android:exported="true"
-56            android:hardwareAccelerated="true"
-57            android:launchMode="singleTop"
-58            android:taskAffinity=""
-59            android:theme="@style/LaunchTheme"
-60            android:windowSoftInputMode="adjustResize" >
-61
-62            <!--
-63                 Specifies an Android theme to apply to this Activity as soon as
-64                 the Android process has started. This theme is visible to the user
-65                 while the Flutter UI initializes. After that, this theme continues
-66                 to determine the Window background behind the Flutter UI.
-67            -->
-68            <meta-data
-69                android:name="io.flutter.embedding.android.NormalTheme"
-70                android:resource="@style/NormalTheme" />
-71
-72            <intent-filter>
-73                <action android:name="android.intent.action.MAIN" />
-74
-75                <category android:name="android.intent.category.LAUNCHER" />
-76            </intent-filter>
-77        </activity>
-78        <!--
-79             Don't delete the meta-data below.
-80             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-81        -->
-82        <meta-data
-83            android:name="flutterEmbedding"
-84            android:value="2" />
-85
-86        <service
-86-->[:cloud_firestore] C:\GitHub\fridgemate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-12:19
-87            android:name="com.google.firebase.components.ComponentDiscoveryService"
-87-->[:cloud_firestore] C:\GitHub\fridgemate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:18-89
-88            android:directBootAware="true"
-88-->[com.google.firebase:firebase-common:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\2ffeafe70dd6441c50a80f2c5812be8e\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:32:13-43
-89            android:exported="false" >
-89-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:16:13-37
-90            <meta-data
-90-->[:cloud_firestore] C:\GitHub\fridgemate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-11:85
-91                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
-91-->[:cloud_firestore] C:\GitHub\fridgemate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:17-134
-92                android:value="com.google.firebase.components.ComponentRegistrar" />
-92-->[:cloud_firestore] C:\GitHub\fridgemate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:17-82
-93            <meta-data
-93-->[:firebase_auth] C:\GitHub\fridgemate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-11:85
-94                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
-94-->[:firebase_auth] C:\GitHub\fridgemate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:17-124
-95                android:value="com.google.firebase.components.ComponentRegistrar" />
-95-->[:firebase_auth] C:\GitHub\fridgemate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:17-82
-96            <meta-data
-96-->[:firebase_storage] C:\GitHub\fridgemate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-11:85
-97                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
-97-->[:firebase_storage] C:\GitHub\fridgemate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:17-126
-98                android:value="com.google.firebase.components.ComponentRegistrar" />
-98-->[:firebase_storage] C:\GitHub\fridgemate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:17-82
-99            <meta-data
-99-->[:firebase_core] C:\GitHub\fridgemate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-11:85
-100                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-100-->[:firebase_core] C:\GitHub\fridgemate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:17-124
-101                android:value="com.google.firebase.components.ComponentRegistrar" />
-101-->[:firebase_core] C:\GitHub\fridgemate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:17-82
-102            <meta-data
-102-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:17:13-19:85
-103                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
-103-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:18:17-122
-104                android:value="com.google.firebase.components.ComponentRegistrar" />
-104-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:19:17-82
-105            <meta-data
-105-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:20:13-22:85
-106                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-106-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:21:17-111
-107                android:value="com.google.firebase.components.ComponentRegistrar" />
-107-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:22:17-82
-108            <meta-data
-108-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:69:13-71:85
-109                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-109-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:70:17-109
-110                android:value="com.google.firebase.components.ComponentRegistrar" />
-110-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:71:17-82
-111            <meta-data
-111-->[com.google.firebase:firebase-storage:21.0.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\f5c59980b505e74e691614ec3e42c3a9\transformed\jetified-firebase-storage-21.0.1\AndroidManifest.xml:30:13-32:85
-112                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
-112-->[com.google.firebase:firebase-storage:21.0.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\f5c59980b505e74e691614ec3e42c3a9\transformed\jetified-firebase-storage-21.0.1\AndroidManifest.xml:31:17-118
-113                android:value="com.google.firebase.components.ComponentRegistrar" />
-113-->[com.google.firebase:firebase-storage:21.0.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\f5c59980b505e74e691614ec3e42c3a9\transformed\jetified-firebase-storage-21.0.1\AndroidManifest.xml:32:17-82
-114            <meta-data
-114-->[com.google.firebase:firebase-storage:21.0.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\f5c59980b505e74e691614ec3e42c3a9\transformed\jetified-firebase-storage-21.0.1\AndroidManifest.xml:33:13-35:85
-115                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-115-->[com.google.firebase:firebase-storage:21.0.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\f5c59980b505e74e691614ec3e42c3a9\transformed\jetified-firebase-storage-21.0.1\AndroidManifest.xml:34:17-107
-116                android:value="com.google.firebase.components.ComponentRegistrar" />
-116-->[com.google.firebase:firebase-storage:21.0.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\f5c59980b505e74e691614ec3e42c3a9\transformed\jetified-firebase-storage-21.0.1\AndroidManifest.xml:35:17-82
-117            <meta-data
-117-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\a15eeea04ed4f7200aebae8aa86d5681\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:37:13-39:85
-118                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-118-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\a15eeea04ed4f7200aebae8aa86d5681\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:38:17-139
-119                android:value="com.google.firebase.components.ComponentRegistrar" />
-119-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\a15eeea04ed4f7200aebae8aa86d5681\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:39:17-82
-120            <meta-data
-120-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\84de9f8a9ea96b1bfe08a67151c98fe8\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:25:13-27:85
-121                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
-121-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\84de9f8a9ea96b1bfe08a67151c98fe8\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:26:17-120
-122                android:value="com.google.firebase.components.ComponentRegistrar" />
-122-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\84de9f8a9ea96b1bfe08a67151c98fe8\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:27:17-82
-123            <meta-data
-123-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\84de9f8a9ea96b1bfe08a67151c98fe8\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:28:13-30:85
-124                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
-124-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\84de9f8a9ea96b1bfe08a67151c98fe8\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:29:17-117
-125                android:value="com.google.firebase.components.ComponentRegistrar" />
-125-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\84de9f8a9ea96b1bfe08a67151c98fe8\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:30:17-82
-126            <meta-data
-126-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\3a0494424d0bf4938142579b8d0c91b4\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:15:13-17:85
-127                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
-127-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\3a0494424d0bf4938142579b8d0c91b4\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:16:17-130
-128                android:value="com.google.firebase.components.ComponentRegistrar" />
-128-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\3a0494424d0bf4938142579b8d0c91b4\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:17:17-82
-129            <meta-data
-129-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\3a0494424d0bf4938142579b8d0c91b4\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:18:13-20:85
-130                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-130-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\3a0494424d0bf4938142579b8d0c91b4\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:19:17-127
-131                android:value="com.google.firebase.components.ComponentRegistrar" />
-131-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\3a0494424d0bf4938142579b8d0c91b4\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:20:17-82
-132            <meta-data
-132-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\403c410a031664cda4b851947adc81a7\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
-133                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
-133-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\403c410a031664cda4b851947adc81a7\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
-134                android:value="com.google.firebase.components.ComponentRegistrar" />
-134-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\403c410a031664cda4b851947adc81a7\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
-135            <meta-data
-135-->[com.google.firebase:firebase-common:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\2ffeafe70dd6441c50a80f2c5812be8e\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
-136                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
-136-->[com.google.firebase:firebase-common:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\2ffeafe70dd6441c50a80f2c5812be8e\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:36:17-109
-137                android:value="com.google.firebase.components.ComponentRegistrar" />
-137-->[com.google.firebase:firebase-common:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\2ffeafe70dd6441c50a80f2c5812be8e\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:37:17-82
-138        </service>
-139
-140        <provider
-140-->[:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:9-17:20
-141            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-141-->[:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:13-82
-142            android:authorities="com.example.fridgemate.flutter.image_provider"
-142-->[:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:13-74
-143            android:exported="false"
-143-->[:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:12:13-37
-144            android:grantUriPermissions="true" >
-144-->[:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:13:13-47
-145            <meta-data
-145-->[:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:14:13-16:75
-146                android:name="android.support.FILE_PROVIDER_PATHS"
-146-->[:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:15:17-67
-147                android:resource="@xml/flutter_image_picker_file_paths" />
-147-->[:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:16:17-72
-148        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
-149        <service
-149-->[:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:19:9-31:19
-150            android:name="com.google.android.gms.metadata.ModuleDependencies"
-150-->[:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:20:13-78
-151            android:enabled="false"
-151-->[:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:21:13-36
-152            android:exported="false" >
-152-->[:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:22:13-37
-153            <intent-filter>
-153-->[:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:24:13-26:29
-154                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
-154-->[:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:25:17-94
-154-->[:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:25:25-91
-155            </intent-filter>
-156
-157            <meta-data
-157-->[:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:28:13-30:36
-158                android:name="photopicker_activity:0:required"
-158-->[:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:29:17-63
-159                android:value="" />
-159-->[:image_picker_android] C:\GitHub\fridgemate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:30:17-33
-160        </service>
+15-->C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\debug\AndroidManifest.xml:6:5-66
+15-->C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\debug\AndroidManifest.xml:6:22-64
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:2:5-64
+16-->C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:2:22-62
+17    <!--
+18 Required to query activities that can process text, see:
+19         https://developer.android.com/training/package-visibility and
+20         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+21
+22         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+23    -->
+24    <queries>
+24-->C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:41:5-46:15
+25        <intent>
+25-->C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:42:9-45:18
+26            <action android:name="android.intent.action.PROCESS_TEXT" />
+26-->C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:43:13-72
+26-->C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:43:21-70
+27
+28            <data android:mimeType="text/plain" />
+28-->C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:44:13-50
+28-->C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:44:19-48
+29        </intent>
+30    </queries>
+31
+32    <uses-feature
+32-->[:mobile_scanner] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\mobile_scanner\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:5-11:36
+33        android:name="android.hardware.camera"
+33-->[:mobile_scanner] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\mobile_scanner\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:9-47
+34        android:required="false" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+34-->[:mobile_scanner] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\mobile_scanner\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:9-33
+35    <!-- <uses-sdk android:minSdkVersion="21" /> -->
+36    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+36-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:10:5-79
+36-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:10:22-76
+37    <uses-permission android:name="android.permission.WAKE_LOCK" />
+37-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\a15eeea04ed4f7200aebae8aa86d5681\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:24:5-68
+37-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\a15eeea04ed4f7200aebae8aa86d5681\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:24:22-65
+38    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+38-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\a15eeea04ed4f7200aebae8aa86d5681\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:25:5-79
+38-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\a15eeea04ed4f7200aebae8aa86d5681\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:25:22-76
+39    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+39-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\a15eeea04ed4f7200aebae8aa86d5681\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:26:5-88
+39-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\a15eeea04ed4f7200aebae8aa86d5681\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:26:22-85
+40    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+40-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\a15eeea04ed4f7200aebae8aa86d5681\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:27:5-82
+40-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\a15eeea04ed4f7200aebae8aa86d5681\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:27:22-79
+41    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+41-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\b068b2419a17c2ba6e53ccecd9b49121\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:26:5-110
+41-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\b068b2419a17c2ba6e53ccecd9b49121\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:26:22-107
+42    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+42-->[com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\3ae0640ad1e6c4c9c4f39c35dd758878\transformed\jetified-recaptcha-18.5.1\AndroidManifest.xml:9:5-98
+42-->[com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\3ae0640ad1e6c4c9c4f39c35dd758878\transformed\jetified-recaptcha-18.5.1\AndroidManifest.xml:9:22-95
+43
+44    <permission
+44-->[androidx.core:core:1.13.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\01362fc6d446dbe5485c4a44efcb82cc\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+45        android:name="com.example.fridgemate.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+45-->[androidx.core:core:1.13.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\01362fc6d446dbe5485c4a44efcb82cc\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+46        android:protectionLevel="signature" />
+46-->[androidx.core:core:1.13.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\01362fc6d446dbe5485c4a44efcb82cc\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+47
+48    <uses-permission android:name="com.example.fridgemate.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+48-->[androidx.core:core:1.13.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\01362fc6d446dbe5485c4a44efcb82cc\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+48-->[androidx.core:core:1.13.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\01362fc6d446dbe5485c4a44efcb82cc\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+49
+50    <application
+51        android:name="android.app.Application"
+52        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+52-->[androidx.core:core:1.13.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\01362fc6d446dbe5485c4a44efcb82cc\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+53        android:debuggable="true"
+54        android:extractNativeLibs="false"
+55        android:icon="@mipmap/ic_launcher"
+56        android:label="FridgeMate" >
+57        <activity
+58            android:name="com.example.fridgemate.MainActivity"
+59            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+60            android:exported="true"
+61            android:hardwareAccelerated="true"
+62            android:launchMode="singleTop"
+63            android:taskAffinity=""
+64            android:theme="@style/LaunchTheme"
+65            android:windowSoftInputMode="adjustResize" >
+66
+67            <!--
+68                 Specifies an Android theme to apply to this Activity as soon as
+69                 the Android process has started. This theme is visible to the user
+70                 while the Flutter UI initializes. After that, this theme continues
+71                 to determine the Window background behind the Flutter UI.
+72            -->
+73            <meta-data
+74                android:name="io.flutter.embedding.android.NormalTheme"
+75                android:resource="@style/NormalTheme" />
+76
+77            <intent-filter>
+78                <action android:name="android.intent.action.MAIN" />
+79
+80                <category android:name="android.intent.category.LAUNCHER" />
+81            </intent-filter>
+82        </activity>
+83        <!--
+84             Don't delete the meta-data below.
+85             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+86        -->
+87        <meta-data
+88            android:name="flutterEmbedding"
+89            android:value="2" />
+90
+91        <service
+91-->[:cloud_firestore] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-12:19
+92            android:name="com.google.firebase.components.ComponentDiscoveryService"
+92-->[:cloud_firestore] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:18-89
+93            android:directBootAware="true"
+93-->[com.google.firebase:firebase-common:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\2ffeafe70dd6441c50a80f2c5812be8e\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:32:13-43
+94            android:exported="false" >
+94-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:16:13-37
+95            <meta-data
+95-->[:cloud_firestore] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-11:85
+96                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+96-->[:cloud_firestore] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:17-134
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[:cloud_firestore] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\cloud_firestore\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:17-82
+98            <meta-data
+98-->[:firebase_auth] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-11:85
+99                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+99-->[:firebase_auth] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:17-124
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[:firebase_auth] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_auth\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:17-82
+101            <meta-data
+101-->[:firebase_storage] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-11:85
+102                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+102-->[:firebase_storage] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:17-126
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[:firebase_storage] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:17-82
+104            <meta-data
+104-->[:firebase_core] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-11:85
+105                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+105-->[:firebase_core] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:17-124
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[:firebase_core] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:17-82
+107            <meta-data
+107-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:17:13-19:85
+108                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+108-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:18:17-122
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:19:17-82
+110            <meta-data
+110-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:20:13-22:85
+111                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+111-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:21:17-111
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\5061e0aaed4ddb71ef1e7f436112f915\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:22:17-82
+113            <meta-data
+113-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:69:13-71:85
+114                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+114-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:70:17-109
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:71:17-82
+116            <meta-data
+116-->[com.google.firebase:firebase-storage:21.0.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\f5c59980b505e74e691614ec3e42c3a9\transformed\jetified-firebase-storage-21.0.1\AndroidManifest.xml:30:13-32:85
+117                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
+117-->[com.google.firebase:firebase-storage:21.0.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\f5c59980b505e74e691614ec3e42c3a9\transformed\jetified-firebase-storage-21.0.1\AndroidManifest.xml:31:17-118
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.firebase:firebase-storage:21.0.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\f5c59980b505e74e691614ec3e42c3a9\transformed\jetified-firebase-storage-21.0.1\AndroidManifest.xml:32:17-82
+119            <meta-data
+119-->[com.google.firebase:firebase-storage:21.0.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\f5c59980b505e74e691614ec3e42c3a9\transformed\jetified-firebase-storage-21.0.1\AndroidManifest.xml:33:13-35:85
+120                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+120-->[com.google.firebase:firebase-storage:21.0.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\f5c59980b505e74e691614ec3e42c3a9\transformed\jetified-firebase-storage-21.0.1\AndroidManifest.xml:34:17-107
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.firebase:firebase-storage:21.0.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\f5c59980b505e74e691614ec3e42c3a9\transformed\jetified-firebase-storage-21.0.1\AndroidManifest.xml:35:17-82
+122            <meta-data
+122-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\a15eeea04ed4f7200aebae8aa86d5681\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:37:13-39:85
+123                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+123-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\a15eeea04ed4f7200aebae8aa86d5681\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:38:17-139
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\a15eeea04ed4f7200aebae8aa86d5681\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:39:17-82
+125            <meta-data
+125-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\84de9f8a9ea96b1bfe08a67151c98fe8\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:25:13-27:85
+126                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+126-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\84de9f8a9ea96b1bfe08a67151c98fe8\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:26:17-120
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\84de9f8a9ea96b1bfe08a67151c98fe8\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:27:17-82
+128            <meta-data
+128-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\84de9f8a9ea96b1bfe08a67151c98fe8\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:28:13-30:85
+129                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+129-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\84de9f8a9ea96b1bfe08a67151c98fe8\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:29:17-117
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\84de9f8a9ea96b1bfe08a67151c98fe8\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:30:17-82
+131            <meta-data
+131-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\3a0494424d0bf4938142579b8d0c91b4\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:15:13-17:85
+132                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+132-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\3a0494424d0bf4938142579b8d0c91b4\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:16:17-130
+133                android:value="com.google.firebase.components.ComponentRegistrar" />
+133-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\3a0494424d0bf4938142579b8d0c91b4\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:17:17-82
+134            <meta-data
+134-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\3a0494424d0bf4938142579b8d0c91b4\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:18:13-20:85
+135                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+135-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\3a0494424d0bf4938142579b8d0c91b4\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:19:17-127
+136                android:value="com.google.firebase.components.ComponentRegistrar" />
+136-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\3a0494424d0bf4938142579b8d0c91b4\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:20:17-82
+137            <meta-data
+137-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\403c410a031664cda4b851947adc81a7\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+138                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+138-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\403c410a031664cda4b851947adc81a7\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+139                android:value="com.google.firebase.components.ComponentRegistrar" />
+139-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\403c410a031664cda4b851947adc81a7\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+140            <meta-data
+140-->[com.google.firebase:firebase-common:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\2ffeafe70dd6441c50a80f2c5812be8e\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+141                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+141-->[com.google.firebase:firebase-common:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\2ffeafe70dd6441c50a80f2c5812be8e\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+142                android:value="com.google.firebase.components.ComponentRegistrar" />
+142-->[com.google.firebase:firebase-common:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\2ffeafe70dd6441c50a80f2c5812be8e\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+143        </service>
+144
+145        <provider
+145-->[:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:9-17:20
+146            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+146-->[:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:13-82
+147            android:authorities="com.example.fridgemate.flutter.image_provider"
+147-->[:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:13-74
+148            android:exported="false"
+148-->[:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:12:13-37
+149            android:grantUriPermissions="true" >
+149-->[:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:13:13-47
+150            <meta-data
+150-->[:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:14:13-16:75
+151                android:name="android.support.FILE_PROVIDER_PATHS"
+151-->[:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:15:17-67
+152                android:resource="@xml/flutter_image_picker_file_paths" />
+152-->[:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:16:17-72
+153        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
+154        <service
+154-->[:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:19:9-31:19
+155            android:name="com.google.android.gms.metadata.ModuleDependencies"
+155-->[:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:20:13-78
+156            android:enabled="false"
+156-->[:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:21:13-36
+157            android:exported="false" >
+157-->[:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:22:13-37
+158            <intent-filter>
+158-->[:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:24:13-26:29
+159                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+159-->[:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:25:17-94
+159-->[:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:25:25-91
+160            </intent-filter>
 161
-162        <activity
-162-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:29:9-46:20
-163            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-163-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:30:13-80
-164            android:excludeFromRecents="true"
-164-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:31:13-46
-165            android:exported="true"
-165-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:32:13-36
-166            android:launchMode="singleTask"
-166-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:33:13-44
-167            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-167-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:34:13-72
-168            <intent-filter>
-168-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:35:13-45:29
-169                <action android:name="android.intent.action.VIEW" />
-169-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:36:17-69
-169-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:36:25-66
-170
-171                <category android:name="android.intent.category.DEFAULT" />
-171-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:38:17-76
-171-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:38:27-73
-172                <category android:name="android.intent.category.BROWSABLE" />
-172-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:39:17-78
-172-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:39:27-75
-173
-174                <data
-174-->C:\GitHub\fridgemate\fridgemate\android\app\src\main\AndroidManifest.xml:42:13-50
-175                    android:host="firebase.auth"
-176                    android:path="/"
-177                    android:scheme="genericidp" />
-178            </intent-filter>
-179        </activity>
-180        <activity
-180-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:47:9-64:20
-181            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-181-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:48:13-79
-182            android:excludeFromRecents="true"
-182-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:49:13-46
-183            android:exported="true"
-183-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:50:13-36
-184            android:launchMode="singleTask"
-184-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:51:13-44
-185            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-185-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:52:13-72
-186            <intent-filter>
-186-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:53:13-63:29
-187                <action android:name="android.intent.action.VIEW" />
-187-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:36:17-69
-187-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:36:25-66
-188
-189                <category android:name="android.intent.category.DEFAULT" />
-189-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:38:17-76
-189-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:38:27-73
-190                <category android:name="android.intent.category.BROWSABLE" />
-190-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:39:17-78
-190-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:39:27-75
-191
-192                <data
-192-->C:\GitHub\fridgemate\fridgemate\android\app\src\main\AndroidManifest.xml:42:13-50
-193                    android:host="firebase.auth"
-194                    android:path="/"
-195                    android:scheme="recaptcha" />
-196            </intent-filter>
-197        </activity>
-198
-199        <property
-199-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\a15eeea04ed4f7200aebae8aa86d5681\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:30:9-32:61
-200            android:name="android.adservices.AD_SERVICES_CONFIG"
-200-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\a15eeea04ed4f7200aebae8aa86d5681\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:31:13-65
-201            android:resource="@xml/ga_ad_services_config" />
-201-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\a15eeea04ed4f7200aebae8aa86d5681\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:32:13-58
-202
-203        <provider
-203-->[com.google.firebase:firebase-common:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\2ffeafe70dd6441c50a80f2c5812be8e\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
-204            android:name="com.google.firebase.provider.FirebaseInitProvider"
-204-->[com.google.firebase:firebase-common:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\2ffeafe70dd6441c50a80f2c5812be8e\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:24:13-77
-205            android:authorities="com.example.fridgemate.firebaseinitprovider"
-205-->[com.google.firebase:firebase-common:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\2ffeafe70dd6441c50a80f2c5812be8e\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:25:13-72
-206            android:directBootAware="true"
-206-->[com.google.firebase:firebase-common:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\2ffeafe70dd6441c50a80f2c5812be8e\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:26:13-43
-207            android:exported="false"
-207-->[com.google.firebase:firebase-common:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\2ffeafe70dd6441c50a80f2c5812be8e\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:27:13-37
-208            android:initOrder="100" />
-208-->[com.google.firebase:firebase-common:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\2ffeafe70dd6441c50a80f2c5812be8e\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:28:13-36
-209
-210        <receiver
-210-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\b068b2419a17c2ba6e53ccecd9b49121\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:29:9-33:20
-211            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-211-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\b068b2419a17c2ba6e53ccecd9b49121\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:30:13-85
-212            android:enabled="true"
-212-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\b068b2419a17c2ba6e53ccecd9b49121\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:31:13-35
-213            android:exported="false" >
-213-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\b068b2419a17c2ba6e53ccecd9b49121\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:32:13-37
-214        </receiver>
-215
-216        <service
-216-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\b068b2419a17c2ba6e53ccecd9b49121\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:35:9-38:40
-217            android:name="com.google.android.gms.measurement.AppMeasurementService"
-217-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\b068b2419a17c2ba6e53ccecd9b49121\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:36:13-84
-218            android:enabled="true"
-218-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\b068b2419a17c2ba6e53ccecd9b49121\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:37:13-35
-219            android:exported="false" />
-219-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\b068b2419a17c2ba6e53ccecd9b49121\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:38:13-37
-220        <service
-220-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\b068b2419a17c2ba6e53ccecd9b49121\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:39:9-43:72
-221            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-221-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\b068b2419a17c2ba6e53ccecd9b49121\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:40:13-87
-222            android:enabled="true"
-222-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\b068b2419a17c2ba6e53ccecd9b49121\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:41:13-35
-223            android:exported="false"
-223-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\b068b2419a17c2ba6e53ccecd9b49121\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:42:13-37
-224            android:permission="android.permission.BIND_JOB_SERVICE" />
-224-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\b068b2419a17c2ba6e53ccecd9b49121\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:43:13-69
-225        <service
-225-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\basel\.gradle\caches\8.10.2\transforms\04de36686d6a3a20129877b17bc16a4d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:24:9-32:19
-226            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
-226-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\basel\.gradle\caches\8.10.2\transforms\04de36686d6a3a20129877b17bc16a4d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:25:13-94
-227            android:enabled="true"
-227-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\basel\.gradle\caches\8.10.2\transforms\04de36686d6a3a20129877b17bc16a4d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:26:13-35
-228            android:exported="false" >
-228-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\basel\.gradle\caches\8.10.2\transforms\04de36686d6a3a20129877b17bc16a4d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:27:13-37
-229            <meta-data
-229-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\basel\.gradle\caches\8.10.2\transforms\04de36686d6a3a20129877b17bc16a4d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:29:13-31:104
-230                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
-230-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\basel\.gradle\caches\8.10.2\transforms\04de36686d6a3a20129877b17bc16a4d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:30:17-76
-231                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
-231-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\basel\.gradle\caches\8.10.2\transforms\04de36686d6a3a20129877b17bc16a4d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:31:17-101
-232        </service>
-233
-234        <activity
-234-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\basel\.gradle\caches\8.10.2\transforms\04de36686d6a3a20129877b17bc16a4d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:34:9-41:20
-235            android:name="androidx.credentials.playservices.HiddenActivity"
-235-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\basel\.gradle\caches\8.10.2\transforms\04de36686d6a3a20129877b17bc16a4d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:35:13-76
-236            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
-236-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\basel\.gradle\caches\8.10.2\transforms\04de36686d6a3a20129877b17bc16a4d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:36:13-87
-237            android:enabled="true"
-237-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\basel\.gradle\caches\8.10.2\transforms\04de36686d6a3a20129877b17bc16a4d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:37:13-35
-238            android:exported="false"
-238-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\basel\.gradle\caches\8.10.2\transforms\04de36686d6a3a20129877b17bc16a4d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:38:13-37
-239            android:fitsSystemWindows="true"
-239-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\basel\.gradle\caches\8.10.2\transforms\04de36686d6a3a20129877b17bc16a4d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:39:13-45
-240            android:theme="@style/Theme.Hidden" >
-240-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\basel\.gradle\caches\8.10.2\transforms\04de36686d6a3a20129877b17bc16a4d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:40:13-48
-241        </activity>
-242        <activity
-242-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\a4173bce4433ac9ec1d4a8f66c7a4005\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
-243            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-243-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\a4173bce4433ac9ec1d4a8f66c7a4005\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
-244            android:excludeFromRecents="true"
-244-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\a4173bce4433ac9ec1d4a8f66c7a4005\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
-245            android:exported="false"
-245-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\a4173bce4433ac9ec1d4a8f66c7a4005\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
-246            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-246-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\a4173bce4433ac9ec1d4a8f66c7a4005\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
-247        <!--
-248            Service handling Google Sign-In user revocation. For apps that do not integrate with
-249            Google Sign-In, this service will never be started.
-250        -->
-251        <service
-251-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\a4173bce4433ac9ec1d4a8f66c7a4005\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
-252            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-252-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\a4173bce4433ac9ec1d4a8f66c7a4005\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
-253            android:exported="true"
-253-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\a4173bce4433ac9ec1d4a8f66c7a4005\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
-254            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-254-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\a4173bce4433ac9ec1d4a8f66c7a4005\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
-255            android:visibleToInstantApps="true" />
-255-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\a4173bce4433ac9ec1d4a8f66c7a4005\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
-256
-257        <uses-library
-257-->[androidx.window:window:1.2.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\95fc30dfb87ca287ebd592be55990773\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
-258            android:name="androidx.window.extensions"
-258-->[androidx.window:window:1.2.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\95fc30dfb87ca287ebd592be55990773\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
-259            android:required="false" />
-259-->[androidx.window:window:1.2.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\95fc30dfb87ca287ebd592be55990773\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
-260        <uses-library
-260-->[androidx.window:window:1.2.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\95fc30dfb87ca287ebd592be55990773\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
-261            android:name="androidx.window.sidecar"
-261-->[androidx.window:window:1.2.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\95fc30dfb87ca287ebd592be55990773\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
-262            android:required="false" />
-262-->[androidx.window:window:1.2.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\95fc30dfb87ca287ebd592be55990773\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
-263
-264        <activity
-264-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\65019e42cdebed1d7d0134c88230afb1\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:9-173
-265            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-265-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\65019e42cdebed1d7d0134c88230afb1\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:19-85
-266            android:exported="false"
-266-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\65019e42cdebed1d7d0134c88230afb1\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:146-170
-267            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-267-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\65019e42cdebed1d7d0134c88230afb1\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:86-145
-268
-269        <meta-data
-269-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\1530fad08259bb12947dcf89031f1871\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
-270            android:name="com.google.android.gms.version"
-270-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\1530fad08259bb12947dcf89031f1871\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
-271            android:value="@integer/google_play_services_version" />
-271-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\1530fad08259bb12947dcf89031f1871\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
-272
-273        <uses-library
-273-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\basel\.gradle\caches\8.10.2\transforms\d96b6a05485888417a0537f16b2a1790\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
-274            android:name="android.ext.adservices"
-274-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\basel\.gradle\caches\8.10.2\transforms\d96b6a05485888417a0537f16b2a1790\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
-275            android:required="false" />
-275-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\basel\.gradle\caches\8.10.2\transforms\d96b6a05485888417a0537f16b2a1790\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
-276
-277        <provider
-277-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\7d4aefebd3aacd0466cd1cf3a33933d8\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
-278            android:name="androidx.startup.InitializationProvider"
-278-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\7d4aefebd3aacd0466cd1cf3a33933d8\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:25:13-67
-279            android:authorities="com.example.fridgemate.androidx-startup"
-279-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\7d4aefebd3aacd0466cd1cf3a33933d8\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:26:13-68
-280            android:exported="false" >
-280-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\7d4aefebd3aacd0466cd1cf3a33933d8\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:27:13-37
-281            <meta-data
-281-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\7d4aefebd3aacd0466cd1cf3a33933d8\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
-282                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-282-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\7d4aefebd3aacd0466cd1cf3a33933d8\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
-283                android:value="androidx.startup" />
-283-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\7d4aefebd3aacd0466cd1cf3a33933d8\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
-284            <meta-data
-284-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
-285                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-285-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
-286                android:value="androidx.startup" />
-286-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
-287        </provider>
-288
-289        <receiver
-289-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
-290            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-290-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
-291            android:directBootAware="false"
-291-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
-292            android:enabled="true"
-292-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
-293            android:exported="true"
-293-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
-294            android:permission="android.permission.DUMP" >
-294-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
-295            <intent-filter>
-295-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
-296                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-296-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
-296-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
-297            </intent-filter>
-298            <intent-filter>
-298-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
-299                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-299-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
-299-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
-300            </intent-filter>
-301            <intent-filter>
-301-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
-302                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-302-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
-302-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
-303            </intent-filter>
-304            <intent-filter>
-304-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
-305                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-305-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
-305-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
-306            </intent-filter>
-307        </receiver> <!-- The activities will be merged into the manifest of the hosting app. -->
-308        <activity
-308-->[com.google.android.play:core-common:2.0.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\8923fcffd8562f9b2eaf0ca15f24dd05\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:14:9-18:65
-309            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
-309-->[com.google.android.play:core-common:2.0.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\8923fcffd8562f9b2eaf0ca15f24dd05\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:15:13-93
-310            android:exported="false"
-310-->[com.google.android.play:core-common:2.0.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\8923fcffd8562f9b2eaf0ca15f24dd05\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:16:13-37
-311            android:stateNotNeeded="true"
-311-->[com.google.android.play:core-common:2.0.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\8923fcffd8562f9b2eaf0ca15f24dd05\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:17:13-42
-312            android:theme="@style/Theme.PlayCore.Transparent" />
-312-->[com.google.android.play:core-common:2.0.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\8923fcffd8562f9b2eaf0ca15f24dd05\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:18:13-62
-313    </application>
-314
-315</manifest>
+162            <meta-data
+162-->[:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:28:13-30:36
+163                android:name="photopicker_activity:0:required"
+163-->[:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:29:17-63
+164                android:value="" />
+164-->[:image_picker_android] C:\Users\basel\StudioProjects\FridgeMate\fridgemate\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:30:17-33
+165        </service>
+166
+167        <activity
+167-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:29:9-46:20
+168            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+168-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:30:13-80
+169            android:excludeFromRecents="true"
+169-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:31:13-46
+170            android:exported="true"
+170-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:32:13-36
+171            android:launchMode="singleTask"
+171-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:33:13-44
+172            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+172-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:34:13-72
+173            <intent-filter>
+173-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:35:13-45:29
+174                <action android:name="android.intent.action.VIEW" />
+174-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:36:17-69
+174-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:36:25-66
+175
+176                <category android:name="android.intent.category.DEFAULT" />
+176-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:38:17-76
+176-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:38:27-73
+177                <category android:name="android.intent.category.BROWSABLE" />
+177-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:39:17-78
+177-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:39:27-75
+178
+179                <data
+179-->C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:44:13-50
+180                    android:host="firebase.auth"
+181                    android:path="/"
+182                    android:scheme="genericidp" />
+183            </intent-filter>
+184        </activity>
+185        <activity
+185-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:47:9-64:20
+186            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+186-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:48:13-79
+187            android:excludeFromRecents="true"
+187-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:49:13-46
+188            android:exported="true"
+188-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:50:13-36
+189            android:launchMode="singleTask"
+189-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:51:13-44
+190            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+190-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:52:13-72
+191            <intent-filter>
+191-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:53:13-63:29
+192                <action android:name="android.intent.action.VIEW" />
+192-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:36:17-69
+192-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:36:25-66
+193
+194                <category android:name="android.intent.category.DEFAULT" />
+194-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:38:17-76
+194-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:38:27-73
+195                <category android:name="android.intent.category.BROWSABLE" />
+195-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:39:17-78
+195-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\738fe540238276c57021a660d2364e62\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:39:27-75
+196
+197                <data
+197-->C:\Users\basel\StudioProjects\FridgeMate\fridgemate\android\app\src\main\AndroidManifest.xml:44:13-50
+198                    android:host="firebase.auth"
+199                    android:path="/"
+200                    android:scheme="recaptcha" />
+201            </intent-filter>
+202        </activity>
+203
+204        <property
+204-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\a15eeea04ed4f7200aebae8aa86d5681\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:30:9-32:61
+205            android:name="android.adservices.AD_SERVICES_CONFIG"
+205-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\a15eeea04ed4f7200aebae8aa86d5681\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:31:13-65
+206            android:resource="@xml/ga_ad_services_config" />
+206-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\a15eeea04ed4f7200aebae8aa86d5681\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:32:13-58
+207        <!--
+208        Service for holding metadata. Cannot be instantiated.
+209        Metadata will be merged from other manifests.
+210        -->
+211        <service
+211-->[androidx.camera:camera-core:1.3.4] C:\Users\basel\.gradle\caches\8.10.2\transforms\c86949c51c9bb24a70994330142abef2\transformed\jetified-camera-core-1.3.4\AndroidManifest.xml:29:9-33:78
+212            android:name="androidx.camera.core.impl.MetadataHolderService"
+212-->[androidx.camera:camera-core:1.3.4] C:\Users\basel\.gradle\caches\8.10.2\transforms\c86949c51c9bb24a70994330142abef2\transformed\jetified-camera-core-1.3.4\AndroidManifest.xml:30:13-75
+213            android:enabled="false"
+213-->[androidx.camera:camera-core:1.3.4] C:\Users\basel\.gradle\caches\8.10.2\transforms\c86949c51c9bb24a70994330142abef2\transformed\jetified-camera-core-1.3.4\AndroidManifest.xml:31:13-36
+214            android:exported="false" >
+214-->[androidx.camera:camera-core:1.3.4] C:\Users\basel\.gradle\caches\8.10.2\transforms\c86949c51c9bb24a70994330142abef2\transformed\jetified-camera-core-1.3.4\AndroidManifest.xml:32:13-37
+215            <meta-data
+215-->[androidx.camera:camera-camera2:1.3.4] C:\Users\basel\.gradle\caches\8.10.2\transforms\63f536d22228084dbd6a2163cec72835\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:30:13-32:89
+216                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+216-->[androidx.camera:camera-camera2:1.3.4] C:\Users\basel\.gradle\caches\8.10.2\transforms\63f536d22228084dbd6a2163cec72835\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:31:17-103
+217                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+217-->[androidx.camera:camera-camera2:1.3.4] C:\Users\basel\.gradle\caches\8.10.2\transforms\63f536d22228084dbd6a2163cec72835\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:32:17-86
+218        </service>
+219
+220        <provider
+220-->[com.google.firebase:firebase-common:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\2ffeafe70dd6441c50a80f2c5812be8e\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+221            android:name="com.google.firebase.provider.FirebaseInitProvider"
+221-->[com.google.firebase:firebase-common:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\2ffeafe70dd6441c50a80f2c5812be8e\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+222            android:authorities="com.example.fridgemate.firebaseinitprovider"
+222-->[com.google.firebase:firebase-common:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\2ffeafe70dd6441c50a80f2c5812be8e\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+223            android:directBootAware="true"
+223-->[com.google.firebase:firebase-common:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\2ffeafe70dd6441c50a80f2c5812be8e\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+224            android:exported="false"
+224-->[com.google.firebase:firebase-common:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\2ffeafe70dd6441c50a80f2c5812be8e\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+225            android:initOrder="100" />
+225-->[com.google.firebase:firebase-common:21.0.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\2ffeafe70dd6441c50a80f2c5812be8e\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+226
+227        <receiver
+227-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\b068b2419a17c2ba6e53ccecd9b49121\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:29:9-33:20
+228            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+228-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\b068b2419a17c2ba6e53ccecd9b49121\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:30:13-85
+229            android:enabled="true"
+229-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\b068b2419a17c2ba6e53ccecd9b49121\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:31:13-35
+230            android:exported="false" >
+230-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\b068b2419a17c2ba6e53ccecd9b49121\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:32:13-37
+231        </receiver>
+232
+233        <service
+233-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\b068b2419a17c2ba6e53ccecd9b49121\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:35:9-38:40
+234            android:name="com.google.android.gms.measurement.AppMeasurementService"
+234-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\b068b2419a17c2ba6e53ccecd9b49121\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:36:13-84
+235            android:enabled="true"
+235-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\b068b2419a17c2ba6e53ccecd9b49121\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:37:13-35
+236            android:exported="false" />
+236-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\b068b2419a17c2ba6e53ccecd9b49121\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:38:13-37
+237        <service
+237-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\b068b2419a17c2ba6e53ccecd9b49121\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:39:9-43:72
+238            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+238-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\b068b2419a17c2ba6e53ccecd9b49121\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:40:13-87
+239            android:enabled="true"
+239-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\b068b2419a17c2ba6e53ccecd9b49121\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:41:13-35
+240            android:exported="false"
+240-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\b068b2419a17c2ba6e53ccecd9b49121\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:42:13-37
+241            android:permission="android.permission.BIND_JOB_SERVICE" />
+241-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\basel\.gradle\caches\8.10.2\transforms\b068b2419a17c2ba6e53ccecd9b49121\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:43:13-69
+242        <service
+242-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\basel\.gradle\caches\8.10.2\transforms\04de36686d6a3a20129877b17bc16a4d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:24:9-32:19
+243            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+243-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\basel\.gradle\caches\8.10.2\transforms\04de36686d6a3a20129877b17bc16a4d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:25:13-94
+244            android:enabled="true"
+244-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\basel\.gradle\caches\8.10.2\transforms\04de36686d6a3a20129877b17bc16a4d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:26:13-35
+245            android:exported="false" >
+245-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\basel\.gradle\caches\8.10.2\transforms\04de36686d6a3a20129877b17bc16a4d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:27:13-37
+246            <meta-data
+246-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\basel\.gradle\caches\8.10.2\transforms\04de36686d6a3a20129877b17bc16a4d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:29:13-31:104
+247                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+247-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\basel\.gradle\caches\8.10.2\transforms\04de36686d6a3a20129877b17bc16a4d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:30:17-76
+248                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+248-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\basel\.gradle\caches\8.10.2\transforms\04de36686d6a3a20129877b17bc16a4d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:31:17-101
+249        </service>
+250
+251        <activity
+251-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\basel\.gradle\caches\8.10.2\transforms\04de36686d6a3a20129877b17bc16a4d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:34:9-41:20
+252            android:name="androidx.credentials.playservices.HiddenActivity"
+252-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\basel\.gradle\caches\8.10.2\transforms\04de36686d6a3a20129877b17bc16a4d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:35:13-76
+253            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+253-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\basel\.gradle\caches\8.10.2\transforms\04de36686d6a3a20129877b17bc16a4d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:36:13-87
+254            android:enabled="true"
+254-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\basel\.gradle\caches\8.10.2\transforms\04de36686d6a3a20129877b17bc16a4d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:37:13-35
+255            android:exported="false"
+255-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\basel\.gradle\caches\8.10.2\transforms\04de36686d6a3a20129877b17bc16a4d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:38:13-37
+256            android:fitsSystemWindows="true"
+256-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\basel\.gradle\caches\8.10.2\transforms\04de36686d6a3a20129877b17bc16a4d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:39:13-45
+257            android:theme="@style/Theme.Hidden" >
+257-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\basel\.gradle\caches\8.10.2\transforms\04de36686d6a3a20129877b17bc16a4d\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:40:13-48
+258        </activity>
+259        <activity
+259-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\a4173bce4433ac9ec1d4a8f66c7a4005\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
+260            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+260-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\a4173bce4433ac9ec1d4a8f66c7a4005\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
+261            android:excludeFromRecents="true"
+261-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\a4173bce4433ac9ec1d4a8f66c7a4005\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+262            android:exported="false"
+262-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\a4173bce4433ac9ec1d4a8f66c7a4005\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
+263            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+263-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\a4173bce4433ac9ec1d4a8f66c7a4005\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
+264        <!--
+265            Service handling Google Sign-In user revocation. For apps that do not integrate with
+266            Google Sign-In, this service will never be started.
+267        -->
+268        <service
+268-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\a4173bce4433ac9ec1d4a8f66c7a4005\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+269            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+269-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\a4173bce4433ac9ec1d4a8f66c7a4005\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
+270            android:exported="true"
+270-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\a4173bce4433ac9ec1d4a8f66c7a4005\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
+271            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+271-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\a4173bce4433ac9ec1d4a8f66c7a4005\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
+272            android:visibleToInstantApps="true" />
+272-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\a4173bce4433ac9ec1d4a8f66c7a4005\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+273        <service
+273-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\5403dfbfb976e99b7013eb046f41b4bb\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:9:9-15:19
+274            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+274-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\5403dfbfb976e99b7013eb046f41b4bb\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:10:13-91
+275            android:directBootAware="true"
+275-->[com.google.mlkit:common:18.9.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\315443ea7bdb4cc5a4362b45dc8d9923\transformed\jetified-common-18.9.0\AndroidManifest.xml:17:13-43
+276            android:exported="false" >
+276-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\5403dfbfb976e99b7013eb046f41b4bb\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:11:13-37
+277            <meta-data
+277-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\5403dfbfb976e99b7013eb046f41b4bb\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:12:13-14:85
+278                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+278-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\5403dfbfb976e99b7013eb046f41b4bb\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:13:17-120
+279                android:value="com.google.firebase.components.ComponentRegistrar" />
+279-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\5403dfbfb976e99b7013eb046f41b4bb\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:14:17-82
+280            <meta-data
+280-->[com.google.mlkit:vision-common:17.3.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\d73ba26ca259dec0fffa7d8369fa09f1\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:12:13-14:85
+281                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+281-->[com.google.mlkit:vision-common:17.3.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\d73ba26ca259dec0fffa7d8369fa09f1\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:13:17-124
+282                android:value="com.google.firebase.components.ComponentRegistrar" />
+282-->[com.google.mlkit:vision-common:17.3.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\d73ba26ca259dec0fffa7d8369fa09f1\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:14:17-82
+283            <meta-data
+283-->[com.google.mlkit:common:18.9.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\315443ea7bdb4cc5a4362b45dc8d9923\transformed\jetified-common-18.9.0\AndroidManifest.xml:20:13-22:85
+284                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+284-->[com.google.mlkit:common:18.9.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\315443ea7bdb4cc5a4362b45dc8d9923\transformed\jetified-common-18.9.0\AndroidManifest.xml:21:17-120
+285                android:value="com.google.firebase.components.ComponentRegistrar" />
+285-->[com.google.mlkit:common:18.9.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\315443ea7bdb4cc5a4362b45dc8d9923\transformed\jetified-common-18.9.0\AndroidManifest.xml:22:17-82
+286        </service>
+287
+288        <provider
+288-->[com.google.mlkit:common:18.9.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\315443ea7bdb4cc5a4362b45dc8d9923\transformed\jetified-common-18.9.0\AndroidManifest.xml:9:9-13:38
+289            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+289-->[com.google.mlkit:common:18.9.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\315443ea7bdb4cc5a4362b45dc8d9923\transformed\jetified-common-18.9.0\AndroidManifest.xml:10:13-78
+290            android:authorities="com.example.fridgemate.mlkitinitprovider"
+290-->[com.google.mlkit:common:18.9.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\315443ea7bdb4cc5a4362b45dc8d9923\transformed\jetified-common-18.9.0\AndroidManifest.xml:11:13-69
+291            android:exported="false"
+291-->[com.google.mlkit:common:18.9.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\315443ea7bdb4cc5a4362b45dc8d9923\transformed\jetified-common-18.9.0\AndroidManifest.xml:12:13-37
+292            android:initOrder="99" />
+292-->[com.google.mlkit:common:18.9.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\315443ea7bdb4cc5a4362b45dc8d9923\transformed\jetified-common-18.9.0\AndroidManifest.xml:13:13-35
+293
+294        <uses-library
+294-->[androidx.window:window:1.2.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\95fc30dfb87ca287ebd592be55990773\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
+295            android:name="androidx.window.extensions"
+295-->[androidx.window:window:1.2.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\95fc30dfb87ca287ebd592be55990773\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
+296            android:required="false" />
+296-->[androidx.window:window:1.2.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\95fc30dfb87ca287ebd592be55990773\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
+297        <uses-library
+297-->[androidx.window:window:1.2.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\95fc30dfb87ca287ebd592be55990773\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
+298            android:name="androidx.window.sidecar"
+298-->[androidx.window:window:1.2.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\95fc30dfb87ca287ebd592be55990773\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
+299            android:required="false" />
+299-->[androidx.window:window:1.2.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\95fc30dfb87ca287ebd592be55990773\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
+300
+301        <activity
+301-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\65019e42cdebed1d7d0134c88230afb1\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+302            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+302-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\65019e42cdebed1d7d0134c88230afb1\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+303            android:exported="false"
+303-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\65019e42cdebed1d7d0134c88230afb1\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+304            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+304-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\65019e42cdebed1d7d0134c88230afb1\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+305
+306        <meta-data
+306-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\1530fad08259bb12947dcf89031f1871\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+307            android:name="com.google.android.gms.version"
+307-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\1530fad08259bb12947dcf89031f1871\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+308            android:value="@integer/google_play_services_version" />
+308-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\1530fad08259bb12947dcf89031f1871\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+309
+310        <uses-library
+310-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\basel\.gradle\caches\8.10.2\transforms\d96b6a05485888417a0537f16b2a1790\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+311            android:name="android.ext.adservices"
+311-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\basel\.gradle\caches\8.10.2\transforms\d96b6a05485888417a0537f16b2a1790\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+312            android:required="false" />
+312-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\basel\.gradle\caches\8.10.2\transforms\d96b6a05485888417a0537f16b2a1790\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+313
+314        <provider
+314-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\7d4aefebd3aacd0466cd1cf3a33933d8\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+315            android:name="androidx.startup.InitializationProvider"
+315-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\7d4aefebd3aacd0466cd1cf3a33933d8\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:25:13-67
+316            android:authorities="com.example.fridgemate.androidx-startup"
+316-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\7d4aefebd3aacd0466cd1cf3a33933d8\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:26:13-68
+317            android:exported="false" >
+317-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\7d4aefebd3aacd0466cd1cf3a33933d8\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:27:13-37
+318            <meta-data
+318-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\7d4aefebd3aacd0466cd1cf3a33933d8\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+319                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+319-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\7d4aefebd3aacd0466cd1cf3a33933d8\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+320                android:value="androidx.startup" />
+320-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\basel\.gradle\caches\8.10.2\transforms\7d4aefebd3aacd0466cd1cf3a33933d8\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+321            <meta-data
+321-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+322                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+322-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+323                android:value="androidx.startup" />
+323-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+324        </provider>
+325
+326        <receiver
+326-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+327            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+327-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+328            android:directBootAware="false"
+328-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+329            android:enabled="true"
+329-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+330            android:exported="true"
+330-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+331            android:permission="android.permission.DUMP" >
+331-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+332            <intent-filter>
+332-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+333                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+333-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+333-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+334            </intent-filter>
+335            <intent-filter>
+335-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+336                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+336-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+336-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+337            </intent-filter>
+338            <intent-filter>
+338-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+339                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+339-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+339-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+340            </intent-filter>
+341            <intent-filter>
+341-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+342                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+342-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+342-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\basel\.gradle\caches\8.10.2\transforms\66547008c6c00eb938b890429eef06d6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+343            </intent-filter>
+344        </receiver>
+345
+346        <service
+346-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\4aa9ec924402cccf5f61d683de5bc762\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+347            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+347-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\4aa9ec924402cccf5f61d683de5bc762\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+348            android:exported="false" >
+348-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\4aa9ec924402cccf5f61d683de5bc762\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+349            <meta-data
+349-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\4aa9ec924402cccf5f61d683de5bc762\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+350                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+350-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\4aa9ec924402cccf5f61d683de5bc762\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+351                android:value="cct" />
+351-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\4aa9ec924402cccf5f61d683de5bc762\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+352        </service>
+353        <service
+353-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\basel\.gradle\caches\8.10.2\transforms\814d2eabfb718be48b89164fb951f454\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+354            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+354-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\basel\.gradle\caches\8.10.2\transforms\814d2eabfb718be48b89164fb951f454\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+355            android:exported="false"
+355-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\basel\.gradle\caches\8.10.2\transforms\814d2eabfb718be48b89164fb951f454\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+356            android:permission="android.permission.BIND_JOB_SERVICE" >
+356-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\basel\.gradle\caches\8.10.2\transforms\814d2eabfb718be48b89164fb951f454\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+357        </service>
+358
+359        <receiver
+359-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\basel\.gradle\caches\8.10.2\transforms\814d2eabfb718be48b89164fb951f454\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+360            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+360-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\basel\.gradle\caches\8.10.2\transforms\814d2eabfb718be48b89164fb951f454\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+361            android:exported="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+361-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\basel\.gradle\caches\8.10.2\transforms\814d2eabfb718be48b89164fb951f454\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+362        <activity
+362-->[com.google.android.play:core-common:2.0.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\8923fcffd8562f9b2eaf0ca15f24dd05\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:14:9-18:65
+363            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+363-->[com.google.android.play:core-common:2.0.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\8923fcffd8562f9b2eaf0ca15f24dd05\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:15:13-93
+364            android:exported="false"
+364-->[com.google.android.play:core-common:2.0.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\8923fcffd8562f9b2eaf0ca15f24dd05\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:16:13-37
+365            android:stateNotNeeded="true"
+365-->[com.google.android.play:core-common:2.0.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\8923fcffd8562f9b2eaf0ca15f24dd05\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:17:13-42
+366            android:theme="@style/Theme.PlayCore.Transparent" />
+366-->[com.google.android.play:core-common:2.0.3] C:\Users\basel\.gradle\caches\8.10.2\transforms\8923fcffd8562f9b2eaf0ca15f24dd05\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:18:13-62
+367    </application>
+368
+369</manifest>
