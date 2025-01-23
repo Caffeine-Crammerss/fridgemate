@@ -4,7 +4,7 @@
             "outputFile": "com.example.fridgemate.app-mergeDebugResources-39:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\basel\\.gradle\\caches\\8.10.2\\transforms\\a4173bce4433ac9ec1d4a8f66c7a4005\\transformed\\jetified-play-services-auth-20.7.0\\res\\values-watch-v20\\values.xml",
+                    "source": "C:\\Users\\Prog\\.gradle\\caches\\8.10.2\\transforms\\fae615127441cd703d824a7cdb6bc91e\\transformed\\jetified-play-services-auth-20.7.0\\res\\values-watch-v20\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",
