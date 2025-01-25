@@ -16,9 +16,7 @@ void main() async {
   runApp(FridgeMateApp());
 }
 
-class FridgeMateApp extends StatelessWidget {
-  // Define a GlobalKey for HomeScreen
-  final GlobalKey<HomeScreenState> homeScreenKey = GlobalKey<HomeScreenState>();
+
 
   @override
   Widget build(BuildContext context) {
