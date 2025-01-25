@@ -7,8 +7,7 @@ import 'dart:io';
 import 'package:image_picker/image_picker.dart';
 import '../globals.dart';
 // Basel was here (:
-class MyItemsScreen extends StatefulWidget {
-  final VoidCallback refreshHomeScreen;
+
 
   const MyItemsScreen({Key? key, required this.refreshHomeScreen})
       : super(key: key);
